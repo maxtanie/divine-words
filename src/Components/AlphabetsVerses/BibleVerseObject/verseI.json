@@ -1,0 +1,54 @@
+{
+  "verseI": [
+    {
+      "name": "Il déteste son fils, celui qui ménage son bâton; celui qui l'aime cherche à le discipliner.",
+      "verse": "Proverbes 13 : 24",
+      "letter": "I",
+      "bgVerses": "img/alphaVersesImg/I/desktop-img/img-proverbes-13-24.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/I/responsive-img/img-responsive-proverbes-13-24.png",
+      "colorMain": "#DC5424",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16181324
+    },
+    {
+      "name": "Il faut du charbon pour alimenter un brasier, du bois pour alimenter un feu, et un homme querelleur pour attiser une dispute.",
+      "verse": "Proverbes 26 : 21",
+      "letter": "I",
+      "bgVerses": "img/alphaVersesImg/I/desktop-img/img-proverbes-13-24.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/I/responsive-img/img-responsive-proverbes-13-24.png",
+      "colorMain": "#DC5424",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182621
+    },
+    {
+      "name": "Il monta dans la barque, et ses disciples le suivirent.",
+      "verse": "Matthieu 8 : 23",
+      "letter": "I",
+      "bgVerses": "img/alphaVersesImg/I/desktop-img/img-proverbes-13-24.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/I/responsive-img/img-responsive-proverbes-13-24.png",
+      "colorMain": "#DC5424",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 13121823
+    },
+    {
+      "name": "Israël, mets ton espoir en l'Eternel, car c'est auprès de l'Eternel que se trouve la bonté, c'est auprès de lui que se trouve une généreuse libération. C'est lui qui rachètera Israël de toutes ses fautes.",
+      "verse": "Psaumes 130 : 7-8",
+      "letter": "I",
+      "bgVerses": "img/alphaVersesImg/I/desktop-img/img-proverbes-13-24.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/I/responsive-img/img-responsive-proverbes-13-24.png",
+      "colorMain": "#DC5424",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161978
+    },
+    {
+      "name": "Il leur dit : Allez ! Ils sortirent, et entrèrent dans les pourceaux. Et voici, tout le troupeau se précipita des pentes escarpées dans la mer, et ils périrent dans les eaux.",
+      "verse": "Matthieu 8 : 32",
+      "letter": "I",
+      "bgVerses": "img/alphaVersesImg/I/desktop-img/img-proverbes-13-24.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/I/responsive-img/img-responsive-proverbes-13-24.png",
+      "colorMain": "#DC5424",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 13121832
+    }
+  ]
+}

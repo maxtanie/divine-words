@@ -1,0 +1,29 @@
+.btn {
+  width: 180px;
+  padding: 18px 20px;
+  background: #e5eb34;
+  border-radius: 100px;
+  margin-top: 25px;
+  color: #1229c1;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease-in-out; }
+
+.btn .content {
+  margin-left: -10px;
+  position: relative; }
+
+.btn .content:after {
+  content: "";
+  position: absolute;
+  border: 8px solid transparent;
+  border-left: 12px solid #1229c1;
+  margin-left: 5px;
+  margin-top: 1px; }
+
+.btn:hover {
+  background: #1229c1;
+  color: #e5eb34; }
+
+.btn:hover .content:after {
+  border-left: 12px solid #e5eb34; }

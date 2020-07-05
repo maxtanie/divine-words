@@ -1,0 +1,125 @@
+// video {
+//   position: fixed;
+//   width: 100%;
+//   height: 100%;
+//   // min-width: 100%;
+//   // min-height: 100%;
+
+//   @media (min-aspect-ratio: 16/9) {
+//     width: 100%;
+//     max-width: 100%;
+//     height: auto;
+//   }
+
+//   @media (max-aspect-ratio: 16/9) {
+//     width: auto;
+//     max-width: auto;
+//     height: 100%;
+//   }
+// }
+
+// #wrapper {
+//   position: absolute;
+
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .video-container {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+//   display: flex;
+//   object-fit: cover;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+// }
+
+// .video-container video {
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   width: 100vw;
+//   height: 56.25vw;
+//   min-width: 177.6vh;
+//   min-height: 100vh;
+//   transform: translate(-50%, -50%);
+// }
+
+.img-header {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.manage-video {
+  width: 50px;
+  min-height: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 125px;
+  z-index: 3;
+
+  .btn-video {
+    text-align: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    line-height: 50px;
+    transition: 0.3s ease;
+    // &:hover {
+    //   border: 1.5px solid #e5eb34;
+    //   background: #e5eb34;
+    //   color: #1229c1;
+    //   opacity: 0;
+    // }
+   
+  }
+
+
+  @media screen and (max-width: 1068px) {
+    width: 100px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%) !important;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+
+    .btn-video {
+      width: 45px;
+      height: 45px;
+      font-size: 1em;
+      line-height: 45px;
+    }
+  }
+}
+
+//  .layer-video {
+//    position: absolute;
+//    width: 100%;
+//    height: 100vh;
+//    top: 0;
+//    left: 0;
+//    right: 0;
+//    bottom: 0;
+
+//    background: transparent url("../../videos/bg-header.png") no-repeat center;
+//   background-size: cover;
+//    z-index: 1;
+//  }

@@ -1,0 +1,19 @@
+#header-content {
+  text-align: center;
+  .title-website {
+    font-size: 5em;
+    font-weight: bold;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2.5em;
+    }
+  }
+
+  .txt-infos {
+    width: 450px;
+    max-width: 95%;
+    line-height: 1.6;
+    margin-top: 18px;
+    letter-spacing: 0.8px;
+  }
+}

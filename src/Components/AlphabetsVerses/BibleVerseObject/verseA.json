@@ -1,0 +1,54 @@
+{
+  "verseA": [
+    {
+      "name": "Aie pitié de moi, Eternel, car je suis sans force !",
+      "verse": "Psaumes 6 : 3",
+      "letter": "A",
+      "bgVerses": "img/alphaVersesImg/A/desktop-img/img-psaumes-6-3.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/A/responsive-img/img-responsive-psaumes-6-3.png",
+      "colorMain": "#ba1411",
+      "verseSound": "/audio/A/A-psaumes-6-3.mp3",
+      "id": 161963
+    },
+    {
+      "name": "Alors tous ceux qui se confient en toi se réjouiront, ils seront pour toujours dans l'allégresse, et tu les protégeras; tu seras un sujet de joie pour ceux qui aiment ton nom. car tu bénis le juste, Eternel, tu l'entoures de ta grâce comme d'un bouclier.",
+      "verse": "Psaumes 5 : 12-13",
+      "letter": "A",
+      "bgVerses": "img/alphaVersesImg/A/desktop-img/img-psaumes-5-12.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/A/responsive-img/img-responsive-psaumes-5-12.png",
+      "colorMain": "#ba1411",
+      "verseSound": "/audio/A/A-psaumes-5-12-13.mp3",
+      "id": 1619512
+    },
+    {
+      "name": "Avec Dieu, nous ferons des exploits. Il écrasera nos ennemis.",
+      "verse": "Psaumes 60 : 12",
+      "letter": "A",
+      "bgVerses": "img/alphaVersesImg/A/desktop-img/img-psaumes-60-12.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/A/responsive-img/img-responsive-psaumes-60-12.png",
+      "colorMain": "#ba1411",
+      "id": 16196012,
+      "verseSound": "/audio/A/A-psaumes-60-12.mp3"
+    },
+    {
+      "name": "Aucun de ceux qui espèrent en toi ne sera couvert de honte, mais la honte est pour ceux qui sont infidèles sans raison.",
+      "verse": "Psaumes 25 : 3",
+      "letter": "A",
+      "bgVerses": "img/alphaVersesImg/A/desktop-img/img-psaumes-25-3.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/A/responsive-img/img-responsive-psaumes-25-3.png",
+      "colorMain": "#ba1411",
+      "verseSound": "/audio/A/A-psaumes-25-3.mp3",
+      "id": 1619253
+    },
+    {
+      "name": "Avec celui qui est fidèle tu te montres fidèle, avec l'homme intègre tu agis avec intégrité.",
+      "verse": "Psaumes 18 : 26",
+      "letter": "A",
+      "bgVerses": "img/alphaVersesImg/A/desktop-img/img-psaumes-18-26.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/A/responsive-img/img-responsive-psaumes-18-26.png",
+      "colorMain": "#ba1411",
+      "verseSound": "/audio/A/A-psaumes-18-26.mp3",
+      "id": 16191826
+    }
+  ]
+}

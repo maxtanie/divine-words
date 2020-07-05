@@ -1,0 +1,54 @@
+{
+  "verseP": [
+    {
+      "name": "Pourquoi cette agitation parmi les nations et ces préoccupations dépourvues de sens parmi les peuples ?",
+      "verse": "Psaumes 2 : 1",
+      "letter": "P",
+      "bgVerses": "img/alphaVersesImg/P/desktop-img/img-psaumes-2-1.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/P/responsive-img/img-responsive-psaumes-2-1.png",
+      "colorMain": "#6011BA",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161921
+    },
+    {
+      "name": "Pareil à un fou qui lance projectiles et flèches et sème la mort, voilà ce qu'est un homme qui trompe son prochain et qui dit: « N'était-ce pas pour plaisanter ? »",
+      "verse": "Proverbes 26 : 18-19",
+      "letter": "P",
+      "bgVerses": "img/alphaVersesImg/P/desktop-img/img-psaumes-2-1.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/P/responsive-img/img-responsive-psaumes-2-1.png",
+      "colorMain": "#6011BA",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618261819
+    },
+    {
+      "name": "Préférez mes instructions à l'argent, et la connaissance à l'or le plus précieux ! En effet, la sagesse vaut mieux que les perles, elle a plus de valeur que tout ce qu'on pourrait désirer.",
+      "verse": "Proverbes 8 : 10-11",
+      "letter": "P",
+      "bgVerses": "img/alphaVersesImg/P/desktop-img/img-psaumes-2-1.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/P/responsive-img/img-responsive-psaumes-2-1.png",
+      "colorMain": "#6011BA",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161881011
+    },
+    {
+      "name": "Pourquoi être abattue, mon âme, et gémir en moi ? Espère en Dieu, car je le louerai encore ! Il est mon salut et mon Dieu.",
+      "verse": "Psaumes 42 : 6",
+      "letter": "P",
+      "bgVerses": "img/alphaVersesImg/P/desktop-img/img-psaumes-2-1.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/P/responsive-img/img-responsive-psaumes-2-1.png",
+      "colorMain": "#6011BA",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619426
+    },
+    {
+      "name": "Pour que ta confiance soit placée en l'Eternel, je veux t'instruire aujourd'hui, oui, toi.",
+      "verse": "Proverbes 22 : 19",
+      "letter": "P",
+      "bgVerses": "img/alphaVersesImg/P/desktop-img/img-psaumes-2-1.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/P/responsive-img/img-responsive-psaumes-2-1.png",
+      "colorMain": "#6011BA",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182219
+    }
+  ]
+}

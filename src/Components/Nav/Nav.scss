@@ -1,0 +1,35 @@
+.nav-default {
+  position: absolute;
+  // top: 28px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999999;
+  padding: 20px 0;
+
+  .flex-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      font-size: 2.5em;
+    }
+    .flex-items {
+      width: 90%;
+      max-width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.bg-nav-white {
+  background-color: #fff !important;
+  // box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.bg-nav-blue {
+  background-color: #1229c1;
+  // box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}

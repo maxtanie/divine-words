@@ -1,0 +1,54 @@
+{
+  "verseF": [
+    {
+      "name": "Fais une route droite pour tes pieds et que toutes tes voies soient bien sûres !",
+      "verse": "Proverbes 4 : 26",
+      "letter": "F",
+      "bgVerses": "img/alphaVersesImg/F/desktop-img/img-proverbes-4-26.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/F/responsive-img/img-responsive-proverbes-4-26.png",
+      "colorMain": "#20D12D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618426
+    },
+    {
+      "name": "Frappe le moqueur, et le sot deviendra sage; Reprends l'homme intelligent, et il comprendra la science.",
+      "verse": "Proverbes 19 : 25",
+      "letter": "F",
+      "bgVerses": "img/alphaVersesImg/F/desktop-img/img-proverbes-19-25.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/F/responsive-img/img-responsive-proverbes-19-25.png",
+      "colorMain": "#20D12D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16181925
+    },
+    {
+      "name": "Fais de l'Eternel tes délices, Et il te donnera ce que ton coeur désire.",
+      "verse": "Psaumes 37 : 4",
+      "letter": "F",
+      "bgVerses": "img/alphaVersesImg/F/desktop-img/img-psaumes-37-4.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/F/responsive-img/img-responsive-psaumes-37-4.png",
+      "colorMain": "#20D12D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619374
+    },
+    {
+      "name": "Franchissez, franchissez les portes ! Préparez un chemin pour le peuple ! Frayez, frayez la route, ôtez les pierres ! Elevez une bannière vers les peuples ! ",
+      "verse": "Esaïe 63 : 10",
+      "letter": "F",
+      "bgVerses": "img/alphaVersesImg/F/desktop-img/img-esaie-63-10.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/F/responsive-img/img-responsive-esaie-63-10.png",
+      "colorMain": "#20D12D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 51956310
+    },
+    {
+      "name": "Frères et soeurs, je n'estime pas m'en être moi-même déjà emparé, mais je fais une chose: oubliant ce qui est derrière et me portant vers ce qui est devant, je cours vers le but pour remporter le prix de l'appel céleste de Dieu en Jésus-Christ.",
+      "verse": "Philippiens 3 : 13-14",
+      "letter": "F",
+      "bgVerses": "img/alphaVersesImg/F/desktop-img/img-philippiens-3-13-14.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/F/responsive-img/img-responsive-philippiens-3-13-14.png",
+      "colorMain": "#20D12D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 168191314
+    }
+  ]
+}

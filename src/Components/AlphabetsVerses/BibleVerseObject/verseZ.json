@@ -1,0 +1,14 @@
+{
+  "verseZ": [
+    {
+      "name": "Zabulon ne chassa point les habitants de Kitron.",
+      "verse": "Juges 1 : 30",
+      "letter": "Z",
+      "bgVerses": "img/alphaVersesImg/Z/desktop-img/img-juges-1-30.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/Z/responsive-img/img-responsive-juges-1-30.png",
+      "colorMain": "#1C3355",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619635
+    }
+  ]
+}

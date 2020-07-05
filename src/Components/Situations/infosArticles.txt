@@ -1,0 +1,53 @@
+ <section className="content-article">
+        <div className="block-img">
+          <img
+            className="img-theme-situations"
+            src="https://www.enfant.com/assets/posts/15000/15129-enfant-peur-des-animaux.jpg"
+            alt=""
+          />
+        </div>
+        <div className="block-content-txt">
+          <div className="block-introduction">
+            <h2 className="name-theme-step">Introduction</h2>
+            {values}
+          </div>
+          <div className="block-introduction">
+            <h2 className="name-theme-step">I: La peur selon la science</h2>
+            <p className="txt-intro">
+              Selon la science la peur est ce sentiment de paralysie interne et externe qui fait
+              perdre tous ses moyens tout en ne sachant plus quoi faire
+            </p>
+            <b>La peur un frain à son epanouissement</b>
+            <p className="txt-intro">
+              La science proclamme est ce sentiment de paralysie interne et externe qui fait
+              perdre tous ses moyens tout en ne sachant plus quoi faire
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-article">
+        <div className="block-content-txt">
+          <div className="block-introduction">
+            <h2 className="name-theme-step">II: La peur selon la Bible</h2>
+              <b>La peur un frain à son epanouissement</b>
+
+              <p className="txt-intro"> Selon la Bible la peur est ce sentiment de paralysie interne et externe qui fait
+              perdre tous ses moyens tout en ne sachant plus quoi faire
+            </p>
+            <b>La peur un venin mortel</b>
+            <p className="txt-intro">
+              La Bible proclamme est ce sentiment de paralysie interne et externe qui fait
+              perdre tous ses moyens tout en ne sachant plus quoi faire
+            </p>
+          </div>
+        </div>
+         <div className="block-img">
+          <img
+            className="img-theme-situations"
+            src="https://rcf.fr/sites/default/static.rcf.fr/radios/rcf63/emissions/bible.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      </div>

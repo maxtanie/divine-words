@@ -1,0 +1,106 @@
+.icon-res-menu {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  z-index: 9999;
+  padding: 10px;
+  transition: transform .3s ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+  font-size: 1.5em; }
+
+.icon-res-menu .icon-menu-res {
+  position: relative;
+  width: 30px;
+  height: 2.5px;
+  margin-bottom: 5px; }
+
+.icon-res-menu .icon-menu-res:last-of-type {
+  margin-bottom: 0 !important; }
+
+.icon-res-menu:hover {
+  transform: scale(0.8); }
+
+.nav-responsive {
+  position: absolute;
+  width: 220px;
+  background: #fff;
+  top: 0;
+  text-align: center;
+  padding: 25px 10px;
+  z-index: 99999999; }
+
+.nav-responsive .list-items {
+  width: 100%;
+  margin-top: 10px; }
+
+.nav-responsive .anchors {
+  color: #1927a1 !important;
+  font-size: 0.75em !important; }
+
+.nav-responsive .anchors:hover {
+  color: #ec3b20 !important; }
+
+.nav-responsive .closed {
+  cursor: pointer;
+  border: 1px solid #1927a1;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  margin: auto;
+  z-index: 99999;
+  border-radius: 100%;
+  margin-top: 25px; }
+
+.nav-responsive .closed:hover {
+  transform: scale(0.8); }
+
+.nav-responsive .closed .close {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden; }
+
+.nav-responsive .closed .close::before, .nav-responsive .closed .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #1927a1; }
+
+.nav-responsive .closed .close::before {
+  transform: rotate(45deg); }
+
+.nav-responsive .closed .close::after {
+  transform: rotate(-45deg); }
+
+.nav-responsive .closed .close.hairline::before, .nav-responsive .closed .close.hairline::after {
+  height: 1px; }
+
+@media screen and (max-width: 1068px) {
+  .nav-responsive {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0; } }
+
+.hide {
+  visibility: hidden;
+  right: 0; }
+
+.show {
+  visibility: visible;
+  right: 0; }
+
+.bg-nav-responsive-blue {
+  background-color: #1229c1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.06); }
+
+.bg-nav-responsive-white {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05), 2px 2px 5px rgba(0, 0, 0, 0.06); }

@@ -1,0 +1,14 @@
+{
+  "verseW": [
+    {
+      "name": "Wisdom, sagesse",
+      "verse": "Psaumes 6 : 3",
+      "letter": "W",
+      "bgVerses": "img/alphaVersesImg/W/desktop-img/img-letter-w.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/W/responsive-img/img-responsive-letter-w.png",
+      "colorMain": "#F35C49",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619632
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "verseG": [
+    {
+      "name": "Garde ton coeur plus que toute autre chose, car de lui jaillissent les sources de la vie.",
+      "verse": "Proverbes 4 : 23",
+      "letter": "G",
+      "bgVerses": "img/alphaVersesImg/G/desktop-img/img-proverbes-4-23.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/G/responsive-img/img-responsive-proverbes-4-23.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618423
+    },
+    {
+      "name": "Grâces soient rendues à Dieu, qui nous fait toujours triompher en Christ, et qui répand par nous en tout lieu l'odeur de sa connaissance !",
+      "verse": "2 Corinthiens 2 : 14 ",
+      "letter": "G",
+      "bgVerses": "img/alphaVersesImg/G/desktop-img/img-2-corinthiens-2-14.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/G/responsive-img/img-responsive-2-corinthiens-2-14.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 2319214
+    },
+    {
+      "name": "Grâce au fruit de la bouche on est rassasié de biens, Et chacun reçoit selon l'oeuvre de ses mains.",
+      "verse": "Proverbes 12 : 14",
+      "letter": "G",
+      "bgVerses": "img/alphaVersesImg/G/desktop-img/img-proverbes-12-14.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/G/responsive-img/img-responsive-proverbes-12-14.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16181214
+    },
+    {
+      "name": "Grâce au fruit de la bouche on jouit du bien; mais ce que désirent les perfides, c'est la violence.",
+      "verse": "Proverbes 13 : 2",
+      "letter": "G",
+      "bgVerses": "img/alphaVersesImg/G/desktop-img/img-proverbes-13-2.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/G/responsive-img/img-responsive-proverbes-13-2.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618132
+    },
+    {
+      "name": "Garde le silence devant l'Eternel, et espère en lui, Ne t'irrite pas contre celui qui réussit dans ses voies, Contre l'homme qui vient à bout de ses mauvais desseins.",
+      "verse": "Psaumes 37 : 7",
+      "letter": "G",
+      "bgVerses": "img/alphaVersesImg/G/desktop-img/img-psaumes-37-7.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/G/responsive-img/img-responsive-psaumes-37-7.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619377
+    }
+  ]
+}

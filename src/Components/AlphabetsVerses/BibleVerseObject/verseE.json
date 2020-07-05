@@ -1,0 +1,54 @@
+{
+  "verseE": [
+    {
+      "name": "En effet, l'Eternel connaît la voie des justes, mais la voie des méchants mène à la ruine.",
+      "verse": "Psaumes 1 : 6",
+      "letter": "E",
+      "bgVerses": "img/alphaVersesImg/E/desktop-img/img-psaumes-1-6.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/E/responsive-img/img-responsive-psaumes-1-6.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161916
+    },
+    {
+      "name": "Et maintenant, rois, conduisez-vous avec sagesse! Juges de la terre, laissez-vous instruire! ",
+      "verse": "Psaumes 2 : 10",
+      "letter": "E",
+      "bgVerses": "img/alphaVersesImg/E/desktop-img/img-psaumes-2-10.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/E/responsive-img/img-responsive-psaumes-2-10.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619210
+    },
+    {
+      "name": "Eternel, que mes ennemis sont nombreux! Beaucoup se dressent contre moi, beaucoup disent à mon sujet: «Pas de salut pour lui auprès de Dieu!»",
+      "verse": "Psaumes 3 : 2-3",
+      "letter": "E",
+      "bgVerses": "img/alphaVersesImg/E/desktop-img/img-psaumes-3-2-3.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/E/responsive-img/img-responsive-psaumes-3-2-3.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619323
+    },
+    {
+      "name": "En effet, les hommes droits habiteront le pays, Les hommes intègres y resteront; Mais les méchants seront retranchés du pays, Les infidèles en seront arrachés.",
+      "verse": "Proverbes 2 : 21-22",
+      "letter": "E",
+      "bgVerses": "img/alphaVersesImg/E/desktop-img/img-proverbes-2-21-22.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/E/responsive-img/img-responsive-proverbes-2-21-22.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182122
+    },
+    {
+      "name": "En effet, la résistance des stupides les tue, Et la sécurité des insensés les perd; Mais celui qui m'écoute reposera avec assurance, Il vivra tranquille et sans craindre aucun mal.",
+      "verse": "Proverbes 1 : 32-33",
+      "letter": "E",
+      "bgVerses": "img/alphaVersesImg/E/desktop-img/img-proverbes-1-32-33.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/E/responsive-img/img-responsive-proverbes-1-32-33.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161813233
+    }
+  ]
+}

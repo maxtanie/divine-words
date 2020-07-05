@@ -1,0 +1,14 @@
+{
+  "verseX": [
+    {
+      "name": "X-erce-toi à la piété.",
+      "verse": "1 Timothée 4 : 7",
+      "letter": "X",
+      "bgVerses": "img/alphaVersesImg/X/desktop-img/img-1-timothee-4-7.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/X/responsive-img/img-responsive-1-timothee-4-7.png",
+      "colorMain": "#D08E1C",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619633
+    }
+  ]
+}

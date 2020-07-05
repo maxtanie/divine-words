@@ -1,0 +1,55 @@
+{
+  "verseB": [
+    {
+      "name": "Béni soit l'Eternel, car il a entendu mes supplications !",
+      "verse": "Psaumes 28 : 6",
+      "letter": "B",
+      "bgVerses": "img/alphaVersesImg/B/desktop-img/img-psaumes-28-6.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/B/responsive-img/img-responsive-psaumes-28-6.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619286
+    }, 
+      {
+      "name": "Béni soit l'homme qui se confie en l'Eternel et dont l'Eternel est l'espérance.",
+      "verse": "Jérémie 17 : 7",
+      "letter": "B",
+      "bgVerses": "img/alphaVersesImg/B/desktop-img/img-jeremie-17-7.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/B/responsive-img/img-responsive-jeremie-17-7.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 105177
+    },
+    {
+      "name": "Béni soit l'Eternel, car il a démontré sa grâce envers moi, comme si j'avais été dans une ville fortifiée.",
+      "verse": "Psaumes 31 : 21",
+      "letter": "B",
+      "bgVerses": "img/alphaVersesImg/B/desktop-img/img-psaumes-31-22.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/B/responsive-img/img-responsive-psaumes-31-22.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16193122,
+      "toChanged": "false"
+    },
+    {
+      "name": "Brandis la lance et le javelot contre mes persécuteurs, dis à mon âme: Je suis ton salut !", 
+      "verse": "Psaumes 35 : 3",
+      "letter": "B",
+      "bgVerses": "img/alphaVersesImg/B/desktop-img/img-psaumes-35-3.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/B/responsive-img/img-responsive-psaumes-35-3.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619353
+    },
+    {
+      "name": "Beaucoup de malheur atteignent le juste, mais l'Eternel l'en délivre toujours.", 
+      "verse": "Psaumes 34 : 19",
+      "letter": "B",
+      "bgVerses": "img/alphaVersesImg/B/desktop-img/img-psaumes-34-19.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/B/responsive-img/img-responsive-psaumes-34-19.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16193419
+    }
+  ]
+}

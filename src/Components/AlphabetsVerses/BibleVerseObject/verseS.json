@@ -1,0 +1,54 @@
+{
+  "verseS": [
+    {
+      "name": "Se moquer du pauvre, c'est insulter son créateur. Celui qui se réjouit d'un malheur ne restera pas impuni.",
+      "verse": "Proverbes 17 : 5",
+      "letter": "S",
+      "bgVerses": "img/alphaVersesImg/S/desktop-img/img-proverbes-17-5.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/S/responsive-img/img-responsive-proverbes-17-5.png",
+      "colorMain": "#F60007",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618175
+    },
+    {
+      "name": "Si tu es à table avec un grand, fais attention à ce qui est devant toi ! Place un couteau devant ta gorge, si tu as trop d'appétit !  Ne convoite pas ses bons plats: c'est une nourriture trompeuse.",
+      "verse": "Proverbes 3 : 21",
+      "letter": "S",
+      "bgVerses": "img/alphaVersesImg/S/desktop-img/img-proverbes-17-5.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/S/responsive-img/img-responsive-proverbes-17-5.png",
+      "colorMain": "#F60007",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618321
+    },
+    {
+      "name": "Soutiens-moi conformément à ta promesse, afin que je vive, et ne me déçois pas dans mon espérance !",
+      "verse": "Psaumes 119 : 116",
+      "letter": "S",
+      "bgVerses": "img/alphaVersesImg/S/desktop-img/img-proverbes-17-5.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/S/responsive-img/img-responsive-proverbes-17-5.png",
+      "colorMain": "#F60007",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619119116
+    },
+    {
+      "name": "Sois mon appui ! Ainsi je serai sauvé et je ne perdrai pas de vue tes prescriptions.",
+      "verse": "Psaumes 119 : 117",
+      "letter": "S",
+      "bgVerses": "img/alphaVersesImg/S/desktop-img/img-proverbes-17-5.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/S/responsive-img/img-responsive-proverbes-17-5.png",
+      "colorMain": "#F60007",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619119117
+    },
+    {
+      "name": "Si tes fils respectent mon alliance et les instructions que je leur donne, leurs fils aussi seront assis pour toujours sur ton trône.",
+      "verse": "Psaumes 132 : 12",
+      "letter": "S",
+      "bgVerses": "img/alphaVersesImg/S/desktop-img/img-proverbes-17-5.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/S/responsive-img/img-responsive-proverbes-17-5.png",
+      "colorMain": "#F60007",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161913212
+    }
+  ]
+}

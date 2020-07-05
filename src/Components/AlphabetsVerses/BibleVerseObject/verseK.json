@@ -1,0 +1,14 @@
+{
+  "verseK": [
+    {
+      "name": "Kyria, l'élue, que j'aime dans la vérité.",
+      "verse": "2 Jean 1 : 1",
+      "letter": "K",
+      "bgVerses": "img/alphaVersesImg/K/desktop-img/img-verse-k-inconnu.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/K/responsive-img/img-responsive-verse-k-inconnu.png",
+      "colorMain": "#4D1200",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619631
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "descriptionsHeaderArticle": {
+    "name": "Parler en public",
+    "title": "Comment vaincre la peur de parler en public ?",
+    "items": "Timidité",
+    "minRead": "8 minutes de lecture"
+    },
+      "versesArray": [
+      {
+        "id": 1,
+        "verseName": "Je suis le chemin la vérité et la vie",
+        "verses": "Jean 14 : 6"
+      },
+      {
+        "id": 2,
+        "verseName": "Je suis la lumière du monde.",
+        "verses": "Jean 8 : 12"
+      },
+      {
+        "id": 3,
+        "verseName": "Jésus pleura.",
+        "verses": "Jean 11 : 35"
+      },
+      {
+        "id": 4,
+        "verseName": "Je suis le bon berger. Le bon berger donne sa vie pour ses brebis.",
+        "verses": "Jean 10 : 11"
+      }
+    ],
+    "articles": [
+      {
+        "introduction": "<b>La timidité</b> est ce sentiment de <b>paralysie</b> interne et externe qui fait perdre tous ses moyens tout en ne sachant plus quoi faire. I existe diverses peurs cependant dans cet article je vais traîte la peur des animaux, dans deux optiques: scientifique e spirituelle, dans le but de vous donner les clés pour vaincre vo peurs.",
+        "articlePartOne": {
+         "partOneTitle": "La peur selon la science"
+        }
+      }
+    ]
+  },
+  {
+    "descriptionsHeaderArticle": {
+    "name": "Peur de la foule",
+    "title": "Comment vaincre les phobies ?",
+    "items": "Timidité",
+    "minRead": "3 minutes de lecture"
+    },
+      "versesArray": [
+      {
+        "id": 1,
+        "verseName": "Je suis le chemin la vérité et la vie",
+        "verses": "Jean 14 : 6"
+      },
+      {
+        "id": 2,
+        "verseName": "Je suis la lumière du monde.",
+        "verses": "Jean 8 : 12"
+      },
+      {
+        "id": 3,
+        "verseName": "Jésus pleura.",
+        "verses": "Jean 11 : 35"
+      },
+      {
+        "id": 4,
+        "verseName": "Je suis le bon berger. Le bon berger donne sa vie pour ses brebis.",
+        "verses": "Jean 10 : 11"
+      }
+    ],
+    "articles": [
+      {
+        "introduction": "<b>La timidité</b> est ce sentiment de <b>paralysie</b> interne et externe qui fait perdre tous ses moyens tout en ne sachant plus quoi faire. I existe diverses peurs cependant dans cet article je vais traîte la peur des animaux, dans deux optiques: scientifique e spirituelle, dans le but de vous donner les clés pour vaincre vo peurs.",
+        "articlePartOne": {
+          "partOneTitle": "La peur selon la science"
+         }
+      }
+    ]
+  }
+]

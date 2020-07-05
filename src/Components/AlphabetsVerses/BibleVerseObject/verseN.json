@@ -1,0 +1,54 @@
+{
+  "verseN": [
+    {
+      "name": "Ne déplace pas la limite ancienne, celle que tes ancêtres ont fixée.",
+      "verse": "Proverbes 22 : 28",
+      "letter": "N",
+      "bgVerses": "img/alphaVersesImg/N/desktop-img/img-proverbes-22-28.png",
+      "bgResponsiveVerses": "/img/alphaVersesImg/N/responsive-img/img-responsive-proverbes-22-28.png",
+      "colorMain": "#FF412F",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182228
+    },
+    {
+      "name": "Nous trouverons toutes sortes de biens précieux et nous remplirons nos maisons de butin.",
+      "verse": "Proverbes 1 : 13",
+      "letter": "N",
+      "bgVerses": "img/alphaVersesImg/N/desktop-img/img-proverbes-22-28.png",
+      "bgResponsiveVerses": "/img/alphaVersesImg/N/responsive-img/img-responsive-proverbes-22-28.png",
+      "colorMain": "#FF412F",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618113
+    },
+    {
+      "name": "Ne te fatigue pas à acquérir la richesse, n'y applique pas ton intelligence. Veux-tu la poursuivre du regard La voilà disparue ! En effet, la richesse se fait des ailes et, comme l'aigle, elle prend son envol vers le ciel.",
+      "verse": "Proverbes 23 : 4-5",
+      "letter": "N",
+      "bgVerses": "img/alphaVersesImg/N/desktop-img/img-proverbes-22-28.png",
+      "bgResponsiveVerses": "/img/alphaVersesImg/N/responsive-img/img-responsive-proverbes-22-28.png",
+      "colorMain": "#FF412F",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182345
+    },
+    {
+      "name": "Ne refuse pas de corriger l'enfant! Si tu le frappes avec un bâton, il ne mourra pas. Certes, tu le frappes avec un bâton, mais tu arraches son âme au séjour des morts.",
+      "verse": "Proverbes 23 : 13-14",
+      "letter": "N",
+      "bgVerses": "img/alphaVersesImg/N/desktop-img/img-proverbes-22-28.png",
+      "bgResponsiveVerses": "/img/alphaVersesImg/N/responsive-img/img-responsive-proverbes-22-28.png",
+      "colorMain": "#FF412F",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618231314
+    },
+    {
+      "name": "Ne fréquente pas l'homme colérique, ne va pas avec l'homme violent ! Tu risquerais de t'habituer à ses sentiers et ils deviendraient un piège pour toi.",
+      "verse": "Proverbes 22 : 24-25",
+      "letter": "N",
+      "bgVerses": "img/alphaVersesImg/N/desktop-img/img-proverbes-22-28.png",
+      "bgResponsiveVerses": "/img/alphaVersesImg/N/responsive-img/img-responsive-proverbes-22-28.png",
+      "colorMain": "#FF412F",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182228
+    }
+  ]
+}

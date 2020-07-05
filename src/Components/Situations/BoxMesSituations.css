@@ -1,0 +1,114 @@
+.flip-card {
+  background-color: transparent;
+  height: 350px;
+  min-height: 480px;
+  perspective: 1000px;
+  margin-top: 60px;
+  margin-bottom: -44px;
+  z-index: 99999; }
+
+.flip-card:last-of-type {
+  margin-bottom: 25px; }
+
+.flip-card .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s linear;
+  transform-style: preserve-3d; }
+
+.flip-card .flip-card-front {
+  background-color: #fff; }
+
+.flip-card .flip-card-front img {
+  width: 100% !important;
+  height: 320px; }
+
+.flip-card .flip-card-front .block-verses {
+  text-align: center;
+  margin-top: 25px; }
+
+.flip-card .flip-card-front .block-verses .verses-name {
+  line-height: 1.6;
+  color: #1229c1; }
+
+.flip-card .flip-card-front .block-verses .verses {
+  margin-top: 10px;
+  color: #ec3b20;
+  font-weight: bold; }
+
+.flip-card .flip-card-back {
+  background-color: #eff53f;
+  color: white;
+  transform: rotateY(180deg); }
+
+.flip-card .flip-card-back .content-absolute-center {
+  width: 80% !important;
+  height: 200px;
+  border: 5px solid #1229c1; }
+
+.flip-card .flip-card-back .content-absolute-center .content {
+  padding: 10px; }
+
+.flip-card .flip-card-back .content-absolute-center .content .name-situations {
+  margin-bottom: 10px;
+  color: #1229c1;
+  font-size: 1.5em; }
+
+.flip-card .flip-card-back .content-absolute-center .content .items-name-situations {
+  color: #ec3b20;
+  font-weight: normal;
+  text-transform: capitalize; }
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); }
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.block-read-more {
+  position: absolute;
+  right: 25px; }
+
+.block-read-more .read-more {
+  text-decoration: none;
+  color: #1229c1;
+  font-weight: bold;
+  transition: 0.3s ease-in-out; }
+
+.block-read-more .read-more:hover {
+  color: #ec3b20; }
+
+.block-read-more .caret-more {
+  font-size: 1em;
+  margin-top: 2px; }
+
+.bottom-read-more {
+  bottom: 25px !important; }
+
+.border-space-yellow:before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 10px;
+  background: #eff53f; }
+
+.border-space-yellow:after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 10px;
+  background: #eff53f; }

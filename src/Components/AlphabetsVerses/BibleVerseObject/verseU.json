@@ -1,0 +1,54 @@
+{
+  "verseU": [
+    {
+      "name": "Un témoin sans valeur se moque du droit et la bouche des méchants est avide d'injustice.",
+      "verse": "Proverbes 19 : 28",
+      "letter": "U",
+      "bgVerses": "img/alphaVersesImg/U/desktop-img/img-proverbes-19-28.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/U/responsive-img/img-responsive-proverbes-19-28.png",
+      "colorMain": "#991927",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16181928
+    },
+    {
+      "name": "Une possession trop vite acquise au départ ne sera pas bénie à la fin.",
+      "verse": "Proverbes 20 : 21",
+      "letter": "U",
+      "bgVerses": "img/alphaVersesImg/U/desktop-img/img-proverbes-19-28.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/U/responsive-img/img-responsive-proverbes-19-28.png",
+      "colorMain": "#991927",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182021
+    },
+    {
+      "name": "Une massue, une épée ou une flèche aiguë, voilà ce qu'est un homme qui porte un faux témoignage contre son prochain." ,
+      "verse": "Proverbes 25 : 18",
+      "letter": "U",
+      "bgVerses": "img/alphaVersesImg/U/desktop-img/img-proverbes-19-28.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/U/responsive-img/img-responsive-proverbes-19-28.png",
+      "colorMain": "#991927",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182518
+    },
+    {
+      "name": "Une dent prête à se casser et un pied branlant, voilà ce qu'est, le jour de la détresse, la confiance placée dans un traître.",
+      "verse": "Proverbes 25 : 19",
+      "letter": "U",
+      "bgVerses": "img/alphaVersesImg/U/desktop-img/img-proverbes-19-28.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/U/responsive-img/img-responsive-proverbes-19-28.png",
+      "colorMain": "#991927",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16181928
+    },
+    {
+      "name": "Une fontaine trouble, une source polluée, voilà ce qu'est un juste qui tremble devant le méchant.",
+      "verse": "Proverbes 25 : 26",
+      "letter": "U",
+      "bgVerses": "img/alphaVersesImg/U/desktop-img/img-proverbes-19-28.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/U/responsive-img/img-responsive-proverbes-19-28.png",
+      "colorMain": "#991927",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182526
+    }
+  ]
+}

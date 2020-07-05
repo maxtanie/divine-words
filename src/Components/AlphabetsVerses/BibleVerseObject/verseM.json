@@ -1,0 +1,54 @@
+{
+  "verseM": [
+    {
+      "name": "Mais toi, Eternel, tu es mon bouclier, tu es ma gloire, et tu relèves ma tête.",
+      "verse": "Psaumes 3 : 4",
+      "letter": "M",
+      "bgVerses": "img/alphaVersesImg/M/desktop-img/img-psaumes-3-4.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/M/responsive-img/img-responsive-psaumes-3-4.png",
+      "colorMain": "#bf382b",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161934
+    },
+    {
+      "name": "Mauvais! Mauvais ! affirme l'acheteur mais, une fois parti, il se félicite.",
+      "verse": "Proverbes 20 : 14",
+      "letter": "M",
+      "bgVerses": "img/alphaVersesImg/M/desktop-img/img-psaumes-3-4.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/M/responsive-img/img-responsive-psaumes-3-4.png",
+      "colorMain": "#bf382b",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182014
+    },
+    {
+      "name": "Mieux vaut habiter à l'angle d'un toit que faire maison commune avec une femme querelleuse.",
+      "verse": "Proverbes 21 : 9",
+      "letter": "M",
+      "bgVerses": "img/alphaVersesImg/M/desktop-img/img-psaumes-3-4.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/M/responsive-img/img-responsive-psaumes-3-4.png",
+      "colorMain": "#bf382b",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618219
+    },
+    {
+      "name": "Mieux vaut un reproche ouvert qu'une amitié cachée.",
+      "verse": "Proverbes 7 : 5",
+      "letter": "M",
+      "bgVerses": "img/alphaVersesImg/M/desktop-img/img-psaumes-3-4.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/M/responsive-img/img-responsive-psaumes-3-4.png",
+      "colorMain": "#bf382b",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161875
+    },
+    {
+      "name": "Même si tu broyais le fou dans un mortier, au milieu des grains avec le pilon, sa folie ne se séparerait pas de lui.",
+      "verse": "Proverbes 27 : 22",
+      "letter": "M",
+      "bgVerses": "img/alphaVersesImg/M/desktop-img/img-psaumes-3-4.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/M/responsive-img/img-responsive-psaumes-3-4.png",
+      "colorMain": "#bf382b",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 16182722
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+import React, { Component } from "react";
+import proverbes19 from "./audio/A/proverbes19-17.mp3";
+import psaumes2 from "./audio/A/psaume2-4.mp3";
+import { Howl, Howler } from "howler";
+
+const audioClips = [
+  { sound: proverbes19, label: "Proverbes19", id: 1 },
+  { sound: psaumes2, label: "Psaumes2", id: 2 }
+];
+export default class AudioTest extends Component {
+  SoundPlay = (src, id) => {
+    const sound = new Howl({
+      src: [src],
+
+      onload: function() {
+        //   sound.play();
+        alert("chargé");
+      }
+      // onend: function() {
+      //   console.log("ONEND", id);
+      // }
+    });
+
+    // Clear listener after first call.
+    sound.once("load", function() {
+      if (id === id) {
+        sound.play();
+      } else {
+        sound.pause();
+      }
+    });
+
+    // // Fires when the sound finishes playing.
+    // sound.on("end", function(id) {
+    //   console.log("Finished!");
+    // });
+
+    console.log(id);
+  };
+
+  Vals = (e, src, id) => {
+    let i = parseInt(e.target.id);
+    console.log("i", i);
+    const sound = new Howl({
+      src: [src],
+      onload: function() {
+        sound.stop();
+      }
+    });
+
+    return sound.pause();
+  };
+
+  RenderButtonAndSound = () => {
+    return audioClips.map((soundObj, index) => {
+      return (
+        <button
+          id={index + 1}
+          key={index}
+          onClick={() => this.SoundPlay(soundObj.sound, soundObj.id)}
+          onMouseLeave={e => this.Vals(e, soundObj.sound, soundObj.id)}
+        >
+          {soundObj.label}
+        </button>
+      );
+    });
+  };
+  render() {
+    Howler.volume(1.0);
+
+    return <div>Audio {this.RenderButtonAndSound()}</div>;
+  }
+}
+
+
+
+  <div className="box-mes-situations flip-card">
+        <div className="content flip-card-inner">
+          <div className="flip-card-front">
+            <div className="block-img">
+              <img
+                src="https://i.pinimg.com/564x/e8/74/a5/e874a50f630bda69f58ca54554bc14ad.jpg"
+                alt=""
+              />
+            </div>
+            <div className="block-verses">
+              <q className="verses-name">
+                Je suis le chemin la vérité et la vie
+              </q>
+              <div className="verses">Jean 14 : 6</div>
+            </div>
+            <div className="block-read-more">
+              <a href="" className="read-more">
+                Lire plus <i class="fas fa-caret-right caret-more"></i>
+              </a>
+            </div>
+          </div>
+          <div className="flip-card-back">
+            <h1>John Doe</h1>
+            <p>Architect & Engineer</p>
+            <p>We love that guy</p>
+            <div className="block-read-more">
+              <a href="" className="read-more">
+                Lire plus <i class="fas fa-caret-right caret-more"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      .box-mes-situations {
+//   position: relative;
+//   width: 300px;
+//   padding: 20px;
+//   padding-bottom: 40px;
+//   background-color: #fff;
+//   margin-top: 70px;
+//   img {
+//     width: 100%;
+//   }
+//   .block-verses {
+//     text-align: center;
+//     margin-top: 15px;
+
+//     .verses-name {
+//       line-height: 1.6;
+//       color: #1229c1;
+//     }
+
+//     .verses {
+//       margin-top: 10px;
+//       color: #ec3b20;
+//       font-weight: bold;
+//       margin-bottom: 30px;
+//     }
+//   }
+// }
+
+// .block-read-more {
+//   position: absolute;
+//   right: 25px;
+//   bottom: 25px;
+
+//   .read-more {
+//     text-decoration: none;
+//     color: #1229c1;
+//     font-weight: bold;
+//     transition: 0.3s ease-in-out;
+
+//     &:hover {
+//       color: #ec3b20;
+//     }
+//   }
+
+//   .caret-more {
+//     font-size: 1em;
+//     margin-top: 2px;
+//   }
+// }
+
+// .flip-card-inner {
+//   width: 100%;
+//   height: 100%;
+//   transition: transform 0.6s;
+//   transform-style: preserve-3d;
+// }
+// .box-mes-situations:hover .flip-card-inner {
+//   transform: rotateY(180deg);
+// }
+
+// .flip-card-back {
+//   position: absolute;
+
+//   top: 0;
+//   left: 0;
+//   background: #eff53f;
+//   // -webkit-backface-visibility: hidden;
+//   // backface-visibility: hidden;
+// }
+
+// // .flip-card-back {
+// //   color: white;
+// //   transform: rotateY(180deg);
+// // }

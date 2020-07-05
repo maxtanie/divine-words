@@ -1,0 +1,54 @@
+{
+  "verseR": [
+    {
+      "name": "Rendez hommage au fils, de peur qu'il ne s'irrite et que vous n'alliez à votre perte, car sa colère s'enflamme rapidement. Heureux tous ceux qui se confient en lui !",
+      "verse": "Psaumes 2 : 11",
+      "letter": "R",
+      "bgVerses": "img/alphaVersesImg/R/desktop-img/img-psaumes-2-11.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/R/responsive-img/img-responsive-psaumes-2-11.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1619211
+    },
+    {
+      "name": "Retire les impuretés de l'argent et le fondeur en sortira un vase.",
+      "verse": "Proverbes 25 : 4",
+      "letter": "R",
+      "bgVerses": "img/alphaVersesImg/R/desktop-img/img-psaumes-2-11.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/R/responsive-img/img-responsive-psaumes-2-11.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618254
+    },
+    {
+      "name": "Retire tout méchant de l'entourage du roi et son trône s'affermira par la justice.",
+      "verse": "Proverbes 25 : 5",
+      "letter": "R",
+      "bgVerses": "img/alphaVersesImg/R/desktop-img/img-psaumes-2-11.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/R/responsive-img/img-responsive-psaumes-2-11.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1618255
+    },
+    {
+      "name": "Réjouissez-vous toujours dans le Seigneur ! Je le répète: réjouissez-vous !",
+      "verse": "Philippiens 4 : 4",
+      "letter": "R",
+      "bgVerses": "img/alphaVersesImg/R/desktop-img/img-psaumes-2-11.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/R/responsive-img/img-responsive-psaumes-2-11.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1681944
+    },
+    {
+      "name": "Repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés, afin que des temps de rafraîchissement viennent de la part du Seigneur, et qu'il envoie celui qui vous a été destiné, Jésus-Christ.",
+      "verse": "Actes 3 : 19",
+      "letter": "R",
+      "bgVerses": "img/alphaVersesImg/R/desktop-img/img-psaumes-2-11.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/R/responsive-img/img-responsive-psaumes-2-11.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 1319319
+    }
+  ]
+}

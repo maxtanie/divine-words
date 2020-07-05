@@ -1,0 +1,54 @@
+{
+  "verseL": [
+    {
+      "name": "Les méchants, au contraire, ressemblent à la paille que le vent disperse. ",
+      "verse": "Psaumes 1 : 4",
+      "letter": "L",
+      "bgVerses": "img/alphaVersesImg/L/desktop-img/img-jacques-1-27.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/L/responsive-img/img-responsive-jacques-1-27.png",
+      "colorMain": "#C78056",
+      "verseSound": "audio/knock-sound.mp3",
+      "id": 161914
+    },
+    {
+      "name": "Les rois de la terre se soulèvent et les chefs se liguent ensemble contre l'Eternel et contre celui qu'il a désigné par onction.",
+      "verse": "Psaumes 2 : 2",
+      "letter": "L",
+      "bgVerses": "img/alphaVersesImg/L/desktop-img/img-jacques-1-27.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/L/responsive-img/img-responsive-jacques-1-27.png",
+      "colorMain": "#C78056",
+      "verseSound": "audio/knock-sound.mp3",
+      "id": 161922
+    },
+    {
+      "name": "Lève-toi, Eternel, sauve-moi, mon Dieu! Tu gifles tous mes ennemis, tu brises les dents des méchants.",
+      "verse": "Psaumes 3 : 8",
+      "letter": "L",
+     "bgVerses": "img/alphaVersesImg/L/desktop-img/img-jacques-1-27.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/L/responsive-img/img-responsive-jacques-1-27.png",
+      "colorMain": "#C78056",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161938
+    },
+    {
+      "name": "Le salut appartient à l'Eternel. Que ta bénédiction soit sur ton peuple! ",
+      "verse": "Psaumes 3 : 9",
+      "letter": "L",
+     "bgVerses": "img/alphaVersesImg/L/desktop-img/img-jacques-1-27.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/L/responsive-img/img-responsive-jacques-1-27.png",
+      "colorMain": "#C78056",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 161939
+    },
+    {
+      "name": "La religion pure et sans tache, devant Dieu notre Père, consiste à visiter les orphelins et les veuves dans leurs afflictions, et à se préserver des souillures du monde.",
+      "verse": "Jacques 1 : 27",
+      "letter": "L",
+     "bgVerses": "img/alphaVersesImg/L/desktop-img/img-jacques-1-27.png",
+      "bgResponsiveVerses": "img/alphaVersesImg/L/responsive-img/img-responsive-jacques-1-27.png",
+      "colorMain": "#C78056",
+      "verseSound": "/audio/knock-sound.mp3",
+      "id": 101127
+    }
+  ]
+}

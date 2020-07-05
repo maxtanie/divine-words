@@ -1,0 +1,17 @@
+.block-buttons .btns-filter {
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  display: block;
+  border: 1.2px solid #fff;
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 100px;
+  color: #fff;
+  transition: 0.3s ease-in-out; }
+
+.block-buttons .btns-filter:hover {
+  border: 1.2px solid #eff53f;
+  background-color: #eff53f;
+  font-weight: bold;
+  color: #1229c1; }
