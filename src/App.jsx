@@ -3,10 +3,10 @@ import { Switch, Route,  withRouter } from "react-router-dom";
 import "./App.scss";
 import Home from "./Components/Home/Home2";
 import Nav from "./Components/Nav/Nav";
-// import AlphaVerses from "./Components/AlphabetsVerses/AlphaVerses";
+import AlphaVerses from "./Components/AlphabetsVerses/AlphaVerses";
 import NavResponsive from "./Components/Nav/NavResponsive";
-// import SituationsPage from "./Components/Situations/SituationsPage";
-// import SituationsReadMorePage from "./Components/Situations/SituationsReadMorePage";
+import SituationsPage from "./Components/Situations/SituationsPage";
+import SituationsReadMorePage from "./Components/Situations/SituationsReadMorePage";
 
 
 class App extends Component {
@@ -30,13 +30,13 @@ class App extends Component {
         {changeMenuByLocation}
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route exact path="/alphabets-versets" component={AlphaVerses} />
+          <Route exact path="/alphabets-versets" component={AlphaVerses} />
           <Route exact path="/mes-situations" component={SituationsPage} />
           <Route
             exact
             path="/mes-situations/:id"
             component={SituationsReadMorePage}
-          /> */}
+          />
         </Switch>
       </div>
     );
