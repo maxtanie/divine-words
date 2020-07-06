@@ -6,30 +6,26 @@
   width: 100%;
   max-width: 100%;
   margin: auto; }
-
-@media screen and (max-width: 768px) {
-  .container-mes-situations-read-more {
-    max-width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .container-mes-situations-read-more {
+      max-width: 100%; } }
 
 .container-mes-situations {
   width: 1090px;
   max-width: 90%;
   margin: auto; }
-
-@media screen and (max-width: 768px) {
-  .container-mes-situations {
-    max-width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .container-mes-situations {
+      max-width: 100%; } }
 
 #mes-situations {
   margin-top: 80px; }
-
-#mes-situations .content-mes-situations {
-  position: relative;
-  padding: 40px; }
-
-@media screen and (max-width: 768px) {
-  #mes-situations {
-    margin-top: 80px; }
   #mes-situations .content-mes-situations {
-    padding: 15px;
-    padding-bottom: 60px; } }
+    position: relative;
+    padding: 40px; }
+  @media screen and (max-width: 768px) {
+    #mes-situations {
+      margin-top: 80px; }
+      #mes-situations .content-mes-situations {
+        padding: 15px;
+        padding-bottom: 60px; } }

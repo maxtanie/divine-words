@@ -5,20 +5,17 @@
   right: 0;
   z-index: 999999999;
   padding: 20px 0; }
-
-.nav-default .flex-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.nav-default .flex-menu .logo {
-  font-size: 2.5em; }
-
-.nav-default .flex-menu .flex-items {
-  width: 90%;
-  max-width: 100%;
-  display: flex;
-  justify-content: flex-end; }
+  .nav-default .flex-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .nav-default .flex-menu .logo {
+      font-size: 2.5em; }
+    .nav-default .flex-menu .flex-items {
+      width: 90%;
+      max-width: 100%;
+      display: flex;
+      justify-content: flex-end; }
 
 .bg-nav-white {
   background-color: #fff !important; }
