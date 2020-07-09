@@ -7,27 +7,27 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-psaumes-28-6.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-psaumes-28-6.png",
       "colorMain": "#f8bd00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/B/B-psaumes-28-6.mp3",
       "id": 1619286
     }, 
       {
-      "name": "Béni soit l'homme qui se confie en l'Eternel et dont l'Eternel est l'espérance.",
-      "verse": "Jérémie 17 : 7",
+      "name": "Béni soit l'homme qui fait confiance à l'Eternel et qui place son espérance en lui ! Il ressemble à un arbre planté près de l'eau et qui étend ses racines vers le cours d'eau: il ne s'aperçoit pas de la venue de la chaleur et son feuillage reste vert. Lors d'une année de sécheresse, il ne redoute rien et il ne cesse pas de porter du fruit.",
+      "verse": "Jérémie 17 : 7-8",
       "letter": "B",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-jeremie-17-7.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-jeremie-17-7.png",
       "colorMain": "#f8bd00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/B/B-jeremie-17-7-8.mp3",
       "id": 105177
     },
     {
-      "name": "Béni soit l'Eternel, car il a démontré sa grâce envers moi, comme si j'avais été dans une ville fortifiée.",
-      "verse": "Psaumes 31 : 21",
+      "name": "Béni soit l'Eternel, car il a démontré sa grâce envers moi, comme si j'avais été dans une ville fortifiée. Je disais dans mon trouble: «Je suis chassé loin de ton regard», mais tu as entendu mes supplications quand j'ai crié vers toi.",
+      "verse": "Psaumes 31 : 22-23",
       "letter": "B",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-psaumes-31-22.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-psaumes-31-22.png",
       "colorMain": "#f8bd00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/B/B-psaumes-31-22-23.mp3",
       "id": 16193122,
       "toChanged": "false"
     },
@@ -38,17 +38,17 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-psaumes-35-3.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-psaumes-35-3.png",
       "colorMain": "#f8bd00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/B/B-psaumes-35-3.mp3",
       "id": 1619353
     },
     {
-      "name": "Beaucoup de malheur atteignent le juste, mais l'Eternel l'en délivre toujours.", 
-      "verse": "Psaumes 34 : 19",
+      "name": "Beaucoup de malheurs atteignent le juste, mais l'Eternel l'en délivre toujours: il garde tous ses os, *aucun d'eux n'est brisé. Mais le malheur fait mourir le méchant, les ennemis du juste sont condamnés.", 
+      "verse": "Psaumes 34 : 20-22",
       "letter": "B",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-psaumes-34-19.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-psaumes-34-19.png",
       "colorMain": "#f8bd00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/B/B-psaumes-34-20-22.mp3",
       "id": 16193419
     }
   ]

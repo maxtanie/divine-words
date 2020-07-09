@@ -7,7 +7,7 @@
       "bgVerses": "img/alphaVersesImg/K/desktop-img/img-verse-k-inconnu.png",
       "bgResponsiveVerses": "img/alphaVersesImg/K/responsive-img/img-responsive-verse-k-inconnu.png",
       "colorMain": "#4D1200",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/K/K-2-jean-1-1.mp3",
       "id": 1619631
     }
   ]

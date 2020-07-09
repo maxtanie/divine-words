@@ -1,13 +1,13 @@
 {
   "verseF": [
     {
-      "name": "Fais une route droite pour tes pieds et que toutes tes voies soient bien sûres !",
-      "verse": "Proverbes 4 : 26",
+      "name": "Fais une route droite pour tes pieds et que toutes tes voies soient bien sûres! Ne dévie ni à droite ni à gauche et détourne ton pied du mal.",
+      "verse": "Proverbes 4 : 26-27",
       "letter": "F",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-proverbes-4-26.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-proverbes-4-26.png",
       "colorMain": "#20D12D",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/F/F-proverbes-4-26-27.mp3",
       "id": 1618426
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-proverbes-19-25.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-proverbes-19-25.png",
       "colorMain": "#20D12D",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/F/F-proverbes-19-25.mp3",
       "id": 16181925
     },
     {
@@ -27,17 +27,17 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-psaumes-37-4.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-psaumes-37-4.png",
       "colorMain": "#20D12D",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/F/F-psaumes-37-4.mp3",
       "id": 1619374
     },
     {
       "name": "Franchissez, franchissez les portes ! Préparez un chemin pour le peuple ! Frayez, frayez la route, ôtez les pierres ! Elevez une bannière vers les peuples ! ",
-      "verse": "Esaïe 63 : 10",
+      "verse": "Esaïe 62 : 10",
       "letter": "F",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-esaie-63-10.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-esaie-63-10.png",
       "colorMain": "#20D12D",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/F/F-esaie-62-10.mp3",
       "id": 51956310
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-philippiens-3-13-14.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-philippiens-3-13-14.png",
       "colorMain": "#20D12D",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/F/F-philippiens-3-13-14.mp3",
       "id": 168191314
     }
   ]

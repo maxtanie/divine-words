@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-1-1-2.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-1-1-2.png",
       "colorMain": "#b65847",
-      "verseSound": "audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-1-1-2.mp3",
       "id": 1619112
     },
     {
@@ -17,17 +17,17 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-84-5.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-84-5.png",
       "colorMain": "#b65847",
-      "verseSound": "audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-84-5.mp3",
       "id": 1619845
     },
     {
       "name": "Heureux ceux qui placent en toi leur appui ! Ils trouvent dans leur coeur des chemins tout tracés. Lorsqu'ils traversent la vallée de Baca, Ils la transforment en un lieu plein de sources, Et la pluie la couvre aussi de bénédictions. Leur force augmente pendant la marche, Et ils se présentent devant Dieu à Sion.",
-      "verse": "Psaumes 84 : 6",
+      "verse": "Psaumes 84 : 6-8",
       "letter": "H",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-84-6.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-84-6.png",
       "colorMain": "#b65847",
-      "verseSound": "audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-84-6-8.mp3",
       "id": 1619846
     },
     {
@@ -37,7 +37,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-luc-11-28.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-luc-11-28.png",
       "colorMain": "#b65847",
-      "verseSound": "audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-luc-11-28.mp3",
       "id": 1231128
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-119-1.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-119-1.png",
       "colorMain": "#b65847",
-      "verseSound": "audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-119-1.mp3",
       "id": 16191191
     }
   ]

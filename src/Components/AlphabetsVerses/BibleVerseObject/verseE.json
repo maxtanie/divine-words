@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-psaumes-1-6.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-psaumes-1-6.png",
       "colorMain": "#8E02D7",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/E/E-psaumes-1-6.mp3",
       "id": 161916
     },
     {
@@ -17,17 +17,17 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-psaumes-2-10.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-psaumes-2-10.png",
       "colorMain": "#8E02D7",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/E/E-psaumes-2-10.mp3",
       "id": 1619210
     },
     {
-      "name": "Eternel, que mes ennemis sont nombreux! Beaucoup se dressent contre moi, beaucoup disent à mon sujet: «Pas de salut pour lui auprès de Dieu!»",
+      "name": "Eternel, que mes ennemis sont nombreux ! Beaucoup se dressent contre moi, beaucoup disent à mon sujet: «Pas de salut pour lui auprès de Dieu!»",
       "verse": "Psaumes 3 : 2-3",
       "letter": "E",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-psaumes-3-2-3.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-psaumes-3-2-3.png",
       "colorMain": "#8E02D7",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/E/E-psaumes-3-2-3.mp3",
       "id": 1619323
     },
     {
@@ -37,7 +37,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-proverbes-2-21-22.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-proverbes-2-21-22.png",
       "colorMain": "#8E02D7",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/E/E-proverbes-2-21-22.mp3",
       "id": 16182122
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-proverbes-1-32-33.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-proverbes-1-32-33.png",
       "colorMain": "#8E02D7",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/E/E-proverbes-1-32-33.mp3",
       "id": 161813233
     }
   ]

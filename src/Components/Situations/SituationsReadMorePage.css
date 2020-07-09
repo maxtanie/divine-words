@@ -218,7 +218,7 @@
     padding: 20px 70px;
     padding-left: 70px;
     font-size: 1.2em;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
     color: #30495f; }
     .content-article .block-content-txt .title-part {
@@ -237,7 +237,7 @@
     .content-article .block-introduction .name-theme-step {
       font-size: 2em; }
     .content-article .block-introduction .txt-intro {
-      font-size: .9em;
+      font-size: 1em;
       color: #30495f;
       margin-bottom: 10px;
       margin-top: 10px; }

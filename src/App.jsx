@@ -7,9 +7,21 @@ import AlphaVerses from "./Components/AlphabetsVerses/AlphaVerses";
 import NavResponsive from "./Components/Nav/NavResponsive";
 import SituationsPage from "./Components/Situations/SituationsPage";
 import SituationsReadMorePage from "./Components/Situations/SituationsReadMorePage";
-
+import sounds from './audio/A/knock-sound.mp3';
+import sounds2 from './audio/A/audio.mp3'
+import Sound from 'react-sound';
 
 class App extends Component {
+ 
+
+   playAudio() {
+    let el = ["aud","aud2"];
+
+    const audioElOne = document.getElementById(el[0])
+    const audioElTwo = document.getElementById(el[1])
+    audioElOne.play()
+    audioElTwo.play();
+  }
   render() {
     const loc = window.location.pathname;
 
@@ -27,6 +39,20 @@ class App extends Component {
 
     return (
       <div className="app">
+         {/* <div>
+        <button onClick={this.playAudio}>
+          <span>Play Audio</span>
+        </button>
+        <audio className="audio-element" id="aud">
+          <source src={sounds}></source>
+        </audio>
+        <button onClick={this.playAudio}>
+          <span>Play Audio</span>
+        </button>
+        <audio className="audio-element" id="aud2">
+          <source src={sounds2}></source>
+        </audio> */}
+ 
         {changeMenuByLocation}
         <Switch>
           <Route exact path="/" component={Home} />

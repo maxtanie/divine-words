@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-psaumes-3-4.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-psaumes-3-4.png",
       "colorMain": "#bf382b",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/M/M-psaumes-3-4.mp3",
       "id": 161934
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-proverbes-20-14.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-proverbes-20-14.png",
       "colorMain": "#bf382b",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/M/M-proverbes-20-14.mp3",
       "id": 16182014
     },
     {
@@ -27,17 +27,17 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-proverbes-21-9.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-proverbes-21-9.png",
       "colorMain": "#bf382b",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/M/M-proverbes-21-9.mp3",
       "id": 1618219
     },
     {
       "name": "Mieux vaut un reproche ouvert qu'une amitié cachée.",
-      "verse": "Proverbes 7 : 5",
+      "verse": "Proverbes 27 : 5",
       "letter": "M",
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-proverbes-7-5.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-proverbes-7-5.png",
       "colorMain": "#bf382b",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/M/M-proverbes-27-5.mp3",
       "id": 161875
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-proverbes-27-22.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-proverbes-27-22.png",
       "colorMain": "#bf382b",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/M/M-proverbes-27-22.mp3",
       "id": 16182722
     }
   ]

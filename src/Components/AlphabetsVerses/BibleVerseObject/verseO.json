@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/desktop-img/img-proverbes-21-20.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/responsive-img/img-responsive-proverbes-21-20.png",
       "colorMain": "#829C00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/O/O-proverbes-21-20.mp3",
       "id": 16182120
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/desktop-img/img-proverbes-19-14.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/responsive-img/img-responsive-proverbes-19-14.png",
       "colorMain": "#829C00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/O/O-proverbes-19-14.mp3",
       "id": 16181914
     },
     {
@@ -27,7 +27,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/desktop-img/img-proverbes-23-12.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/responsive-img/img-responsive-proverbes-23-12.png",
       "colorMain": "#829C00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/O/O-proverbes-23-12.mp3",
       "id": 16182312
     },
     {
@@ -37,7 +37,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/desktop-img/img-ecclesiaste-10-19.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/responsive-img/img-responsive-ecclesiaste-10-19.png",
       "colorMain": "#829C00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/O/O-ecclesiastes-10-19.mp3",
       "id": 5351019
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/desktop-img/img-proverbes-31-8.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/O/responsive-img/img-responsive-proverbes-31-8.png",
       "colorMain": "#829C00",
-      "verseSound": "/audio/knock-sound.mp3",
+      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/O/O-proverbes-31-8.mp3",
       "id": 1618318
     }
   ]
