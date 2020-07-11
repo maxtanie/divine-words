@@ -187,7 +187,7 @@ export default class BoxVerse extends Component {
       return el.bgResponsiveVerses;
     })
 
-
+    let versesSecondLen = 0;
 
     let versesName = listVerses.map((el,index) => {
 
@@ -203,6 +203,8 @@ export default class BoxVerse extends Component {
         name.length
       );
 
+      console.log(versesSecond.length)
+
       return (
         <div key={index}>
           <div className="main-verses-big great-wishes">{outputVerse}</div>  
@@ -211,6 +213,7 @@ export default class BoxVerse extends Component {
       )
       
     })
+
   
   
     // MANAGE SOUND VERSES
@@ -222,33 +225,6 @@ export default class BoxVerse extends Component {
     let sounds =  listVerses.map(el => {
       return el.verseSound;
     })
-
-
-  //   function pauses() {
-  //     sound.stop();
-  //   }
-
-  //   function plays() {
-  //     return sound.play();
-  //   }
-   
-  //   function playSound(src) {
-  //   //check if sound is null, if not stop previous sound and unload it
-  //   if (sound) {
- 
-  //     return pauses();
-  //   }
-  //   sound = new Howl({
-  //       src: src,
-  //       loop: true
-  //   });
-  //   return plays();
-
-  //   console.log(sound)
-  // }
-
-
-
   
 
     // BACKGROUND IMAGE FOR DESKTOP AND RESPONSIVE

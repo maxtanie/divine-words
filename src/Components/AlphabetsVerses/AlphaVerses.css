@@ -119,7 +119,7 @@
 .block-verse .content-verses .block-verses .btn-random-verses {
   cursor: pointer;
   outline: none;
-  margin-top: 120px;
+  margin-top: 60px;
   padding: 15px 25px;
   border-radius: 50px;
   border: none;
@@ -137,7 +137,7 @@
   .block-verse .content-verses .block-verses .btn-random-verses {
     padding: 15px 20px;
     font-size: 1em;
-    margin-top: 90px; } }
+    margin-top: 40px; } }
 
 .btns {
   position: absolute;
@@ -148,10 +148,6 @@
   z-index: 100;
   width: 85%;
   height: 50px; }
-
-@media screen and (max-width: 768px) {
-  .btns {
-    margin-top: 10px; } }
 
 .btns .btn-arrow {
   outline: none;
