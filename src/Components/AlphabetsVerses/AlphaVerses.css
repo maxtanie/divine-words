@@ -23,7 +23,8 @@
 
 .block-verse .block-letter .letter {
   font-size: 3.5em;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 2px; }
 
 .block-verse .block-letter .arrow-letters-click {
   cursor: pointer;
