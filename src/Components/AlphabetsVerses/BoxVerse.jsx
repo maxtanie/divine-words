@@ -30,9 +30,7 @@ export default class BoxVerse extends Component {
     
     if (this.state.soundActived) {
       this.setState({ soundActived: false });
-      console.log("finished")
       return this.paused();
-      
     } else {
       sound = new Howl({
         src: [src],
@@ -41,6 +39,7 @@ export default class BoxVerse extends Component {
       });
       this.setState({ soundActived: true });
       sound.play();
+      console.log("finished")
     }
 
     console.log(sound.currentTime)
@@ -215,6 +214,9 @@ export default class BoxVerse extends Component {
   
   
     // MANAGE SOUND VERSES
+    let prevVerseMaxLen = vars[lists.length -1];
+    let prevVerse = vars[index -1];
+    let nextVerse = vars[index +1];
    
 
     let sounds =  listVerses.map(el => {
@@ -313,9 +315,9 @@ export default class BoxVerse extends Component {
             {versesName[index]}
             <div className="horizontal-line-center"></div>
              <div className="arrow-verses-block">
-              <div className="left arrow" onClick={this.prevVerses.bind(this)}><i class="fas fa-sort-up"></i></div>
-              <div className="block-verses">{vars[this.state.index]}</div>
-              <div className="right arrow" onClick={this.nextVerses.bind(this)}><i class="fas fa-sort-up"></i></div>
+              <span className="left arrow" onClick={this.prevVerses.bind(this)} title={index === 0 ? prevVerseMaxLen : prevVerse}><i class="fas fa-sort-up"></i></span>
+              <span className="block-verses">{vars[this.state.index]}</span>
+              <span className="right arrow" onClick={this.nextVerses.bind(this)} title={nextVerse}><i class="fas fa-sort-up"></i></span>
             </div>
             </div>
             <button

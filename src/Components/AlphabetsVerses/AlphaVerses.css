@@ -141,12 +141,17 @@
 
 .btns {
   position: absolute;
-  top: 59%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -59%);
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
   z-index: 100;
   width: 85%;
   height: 50px; }
+
+@media screen and (max-width: 768px) {
+  .btns {
+    margin-top: 10px; } }
 
 .btns .btn-arrow {
   outline: none;
@@ -282,19 +287,23 @@
   background: red; }
 
 .arrow-verses-block {
-  position: absolute;
-  width: 180px;
-  left: 50%;
-  transform: translateX(-50%); }
+  margin-top: 25px; }
 
 .arrow-verses-block .arrow {
   cursor: pointer;
-  position: absolute;
-  bottom: -2px;
   font-size: 1.5em;
-  transform: rotate(-90deg);
-  margin-top: -20px;
-  transition: all .3s ease-in-out; }
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .3s linear; }
+
+.arrow-verses-block .arrow:hover {
+  opacity: 0.5; }
+
+.arrow-verses-block .left {
+  transform: rotate(-90deg); }
 
 .arrow-verses-block .right {
   transform: rotate(90deg); }
