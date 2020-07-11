@@ -69,13 +69,13 @@
   max-width: 100%;
   text-align: center;
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
   color: #fff;
-  transform: translate(-50%, -70%); }
+  transform: translate(-50%, -60%); }
 
 .block-verse .content-verses .block-verses .main-verses-big {
-  font-size: 4.3em;
+  font-size: 4em;
   font-family: "great wishes" !important; }
 
 @media screen and (max-width: 768px) {
@@ -119,7 +119,7 @@
 .block-verse .content-verses .block-verses .btn-random-verses {
   cursor: pointer;
   outline: none;
-  margin-top: 80px;
+  margin-top: 120px;
   padding: 15px 25px;
   border-radius: 50px;
   border: none;
@@ -137,13 +137,13 @@
   .block-verse .content-verses .block-verses .btn-random-verses {
     padding: 15px 20px;
     font-size: 1em;
-    margin-top: 50px; } }
+    margin-top: 90px; } }
 
 .btns {
   position: absolute;
-  top: 60%;
+  top: 59%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -59%);
   z-index: 100;
   width: 85%;
   height: 50px; }
@@ -270,3 +270,31 @@
 
 .btns-verses .right-verses {
   right: 0; }
+
+.play {
+  width: 50px;
+  height: 50px;
+  background: orange; }
+
+.pause {
+  width: 50px;
+  height: 50px;
+  background: red; }
+
+.arrow-verses-block {
+  position: absolute;
+  width: 180px;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.arrow-verses-block .arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: -2px;
+  font-size: 1.5em;
+  transform: rotate(-90deg);
+  margin-top: -20px;
+  transition: all .3s ease-in-out; }
+
+.arrow-verses-block .right {
+  transform: rotate(90deg); }

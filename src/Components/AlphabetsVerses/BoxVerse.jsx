@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import { Howl, Howler } from "howler";
 // import sound from "../../audio/knock-sound.mp3";
 
 import "./AlphaVerses.scss";
+var sound = null
 
 export default class BoxVerse extends Component {
   state = {
@@ -9,39 +11,135 @@ export default class BoxVerse extends Component {
     mutedClickisActived: false,
     arrowCliked: false,
     matchesScreen: window.matchMedia("(max-width: 568px)").matches,
-    loading: true
+    loading: true,
+    soundActived: false,
+    index: 0,
+    play: false
   };
 
   componentDidMount() {
     const handler = e => this.setState({ matchesScreen: e.matches });
     window.matchMedia("(max-width: 568px)").addListener(handler);
 
+    this.prevVerses();
+    this.nextVerses();
+
   }
 
+ playSound = (src,id) => {
+    
+    if (this.state.soundActived) {
+      this.setState({ soundActived: false });
+      console.log("finished")
+      return this.paused();
+      
+    } else {
+      sound = new Howl({
+        src: [src],
+        id: id,
+        
+      });
+      this.setState({ soundActived: true });
+      sound.play();
+    }
 
+    console.log(sound.currentTime)
+   }
+
+   paused = (id) => {
+    return sound.pause(id);
+  }
+ 
   alphaActived = () => {
     this.setState({
       alphaClickisActived: !this.state.alphaClickisActived,
-      arrowCliked: !this.state.arrowCliked
+      arrowCliked: !this.state.arrowCliked,   
     });
   };
 
-  render() {
-    const { alphaClickisActived, arrowCliked } = this.state;
 
-    const {
+  activedSound = () => {
+    this.setState({soundActived: !this.state.soundActived})
+  }
+
+  prevVerses = () => {
+    const lists = this.props.verseLength;
+
+    if (lists.length === 1) {
+      return this.setState({
+        index: 0,
+        soundActived: false
+      });
+    }
+    if (this.state.index === 0) {
+      this.setState({
+        index: lists.length - 1,
+        soundActived: false
+      });
+    } else {
+      this.setState({
+        index: this.state.index - 1,
+        soundActived: false
+      });
+    }
+
+    let verseId = document.getElementById(`number`);
+
+    verseId.classList.add("change")
+
+    setTimeout(() => {
+        verseId.classList.remove("change")
+      },1000); 
+      Howler.stop();
+
+
+  };
+
+
+
+    nextVerses = () => {
+    const lists = this.props.verseLength;
+
+    if (lists.length === 1) {
+      return this.setState({
+        index: 0,
+        soundActived: false
+      });
+    }
+    if (this.state.index < lists.length - 1) {
+      this.setState({
+        index: this.state.index + 1,
+        soundActived: false
+      });
+    } else {
+      this.setState({
+        index: 0,
+        soundActived: false
+      });
+    }
+    let verseId = document.getElementById(`number`);
+
+    verseId.classList.add("change")
+
+    setTimeout(() => {
+        verseId.classList.remove("change")
+      },1000); 
+
+      Howler.stop();
+  };
+
+
+  render() {
+    const { alphaClickisActived, arrowCliked, index, matchesScreen } = this.state;
+   
+
+    let {
       letter,
-      verse,
-      chosenVerse,
       blockLetterBgColor,
       blockLetterTextColor,
-      arrayVerse,
+      verseLength,
       id,
-      backgroundVerses,
-      backgroundgResponsiveVerses,
-      onClickSoundVerse,
       alphaClick,
-      onClickRandomVerses
     } = this.props;
 
     const alpha = [
@@ -73,31 +171,91 @@ export default class BoxVerse extends Component {
       "z"
     ];
 
-    const {matchesScreen} = this.state;
+    const lists = verseLength;
+    
+    const listVerses = Object.keys(lists).map(i => lists[i])
 
-    const versesChosen = chosenVerse.split(" ");
-    const versesChosenSecond = chosenVerse;
 
-    const versesMain =
-      versesChosen[0].length >= 7
-        ? versesChosen[0]
-        : versesChosen[0].concat(" ", versesChosen[1]);
+    let vars = listVerses.map(el => {
+      return el.verse
+    })
 
-    const versesSecond = versesChosenSecond.substr(
-      versesMain.length,
-      versesChosenSecond.length
-    );
+    let bgDesk =  listVerses.map(el => {
+      return el.bgVerses;
+    })
+
+    let bgResponsive =  listVerses.map(el => {
+      return el.bgResponsiveVerses;
+    })
+
+
+
+    let versesName = listVerses.map((el,index) => {
+
+      const nameVerses = el.name.split(" ")
+      const name = el.name;
+
+      let outputVerse = nameVerses[0].length >= 7
+      ? nameVerses[0]
+      : nameVerses[0].concat(" ", nameVerses[1]);
+
+      let versesSecond = name.substr(
+        outputVerse.length,
+        name.length
+      );
+
+      return (
+        <div key={index}>
+          <div className="main-verses-big great-wishes">{outputVerse}</div>  
+          <div className="second-verses"> {versesSecond}</div> 
+        </div>
+      )
       
-    const dirDesktopVerse = backgroundVerses;
-    const dirResponsiveVerse = backgroundgResponsiveVerses;
+    })
+  
+  
+    // MANAGE SOUND VERSES
+   
+
+    let sounds =  listVerses.map(el => {
+      return el.verseSound;
+    })
+
+
+  //   function pauses() {
+  //     sound.stop();
+  //   }
+
+  //   function plays() {
+  //     return sound.play();
+  //   }
+   
+  //   function playSound(src) {
+  //   //check if sound is null, if not stop previous sound and unload it
+  //   if (sound) {
+ 
+  //     return pauses();
+  //   }
+  //   sound = new Howl({
+  //       src: src,
+  //       loop: true
+  //   });
+  //   return plays();
+
+  //   console.log(sound)
+  // }
+
+
 
   
-    const bgVersesOutput = {
-      
+
+    // BACKGROUND IMAGE FOR DESKTOP AND RESPONSIVE
+    const dirDesktopVerse = bgDesk[index]
+    const dirResponsiveVerse = bgResponsive[index]
+
+  
+    const bgVersesOutput = { 
       background:` ${matchesScreen ?  ` ${blockLetterBgColor} url("${dirResponsiveVerse}") no-repeat fixed center center` : `${blockLetterBgColor} url("${dirDesktopVerse}") no-repeat fixed center center`}`,
-      // height: "100vh",
-      // overflow: "hidden",
-      // backgroundSize: "cover !important"
     }
 
     const blkLetterBgColor = {
@@ -108,6 +266,7 @@ export default class BoxVerse extends Component {
       color: `${blockLetterTextColor}`
     };
 
+    
     return (
       <div className="block-verse" >
         <div className="block" style={bgVersesOutput}></div>
@@ -142,22 +301,26 @@ export default class BoxVerse extends Component {
         </div>
         <div className="content-verses center">
           <div className="block-verses">
-            <div className="anime" id={id}>    
+            <div className="anime" id="number">
+            <div onClick={() => this.playSound( sounds[index])} 
+        >
             <i
               style={blkLetterTextColor}
-              className="fa fa-volume-up sound-verse"
-              onClick={onClickSoundVerse}
+              className={`${!this.state.soundActived ? "fa fa-volume-up sound-verse" : "fa fa-pause sound-verse"}`}
+              onClick={this.activedSound}
             ></i>
-            <div className="main-verses-big great-wishes">{versesMain}</div>
-
-            <div className="second-verses">{versesSecond}</div>
+            </div>    
+            {versesName[index]}
             <div className="horizontal-line-center"></div>
-            <div className="block-verses">{verse}</div>
+             <div className="arrow-verses-block">
+              <div className="left arrow" onClick={this.prevVerses.bind(this)}><i class="fas fa-sort-up"></i></div>
+              <div className="block-verses">{vars[this.state.index]}</div>
+              <div className="right arrow" onClick={this.nextVerses.bind(this)}><i class="fas fa-sort-up"></i></div>
             </div>
-
+            </div>
             <button
               className="btn-random-verses"
-              onClick={onClickRandomVerses}
+              onClick={this.nextVerses.bind(this)}
               style={blkLetterTextColor}
             >
               Nouveau verset

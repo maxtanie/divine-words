@@ -1,7 +1,6 @@
 import React, { Component, useState, useEffect } from "react";
 import { Howl, Howler } from "howler";
 import BoxVerse from "./BoxVerse";
-import uniqueRandom from "unique-random";
 
 // IMPORTATION OF ALL MY VERSE FROM A TO Z
 import verseA from "./BibleVerseObject/verseA.json";
@@ -39,6 +38,8 @@ import verseX from "./BibleVerseObject/verseX.json";
 import verseY from "./BibleVerseObject/verseY.json";
 import verseZ from "./BibleVerseObject/verseZ.json";
 
+let types = '';
+
 // arr
 let dataVerses = [
   verseA,
@@ -71,7 +72,7 @@ let dataVerses = [
 
 let num = 0;
 
-const AlphaVerse = ({ index, alpha, verseNum }) => {
+const AlphaVerse = ({ index, alpha, vLen }) => {
   //HOOKS FOR A VERSE
   const [letterA, setLetterA] = useState("");
   const [verseA, setVerseA] = useState("");
@@ -81,6 +82,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainA, setColorMainA] = useState("");
   const [verseSoundA, setVerseSoundA] = useState("");
   const [soundIdA, setSoundIdA] = useState("");
+  const [nameVerseALength, setNameVerseALength] = useState("");
 
   // HOOKS FOR B VERSE
   const [letterB, setLetterB] = useState("");
@@ -91,6 +93,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainB, setColorMainB] = useState("");
   const [verseSoundB, setVerseSoundB] = useState("");
   const [soundIdB, setSoundIdB] = useState("");
+  const [nameVerseBLength, setNameVerseBLength] = useState("");
 
   // HOOKS FOR C VERSE
   const [letterC, setLetterC] = useState("");
@@ -101,6 +104,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainC, setColorMainC] = useState("");
   const [verseSoundC, setVerseSoundC] = useState("");
   const [soundIdC, setSoundIdC] = useState("");
+  const [nameVerseCLength, setNameVerseCLength] = useState("");
 
   //HOOKS FOR D VERSE
   const [letterD, setLetterD] = useState("");
@@ -111,6 +115,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainD, setColorMainD] = useState("");
   const [verseSoundD, setVerseSoundD] = useState("");
   const [soundIdD, setSoundIdD] = useState("");
+  const [nameVerseDLength, setNameVerseDLength] = useState("");
 
   // HOOKS FOR E VERSE
   const [letterE, setLetterE] = useState("");
@@ -121,6 +126,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainE, setColorMainE] = useState("");
   const [verseSoundE, setVerseSoundE] = useState("");
   const [soundIdE, setSoundIdE] = useState("");
+  const [nameVerseELength, setNameVerseELength] = useState("");
 
   // HOOKS FOR F VERSE
   const [letterF, setLetterF] = useState("");
@@ -131,6 +137,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainF, setColorMainF] = useState("");
   const [verseSoundF, setVerseSoundF] = useState("");
   const [soundIdF, setSoundIdF] = useState("");
+  const [nameVerseFLength, setNameVerseFLength] = useState("");
 
   // HOOKS FOR G VERSE
   const [letterG, setLetterG] = useState("");
@@ -141,6 +148,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainG, setColorMainG] = useState("");
   const [verseSoundG, setVerseSoundG] = useState("");
   const [soundIdG, setSoundIdG] = useState("");
+  const [nameVerseGLength, setNameVerseGLength] = useState("");
 
   // HOOKS FOR H VERSE
   const [letterH, setLetterH] = useState("");
@@ -151,6 +159,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainH, setColorMainH] = useState("");
   const [verseSoundH, setVerseSoundH] = useState("");
   const [soundIdH, setSoundIdH] = useState("");
+  const [nameVerseHLength, setNameVerseHLength] = useState("");
 
   // HOOKS FOR I VERSE
   const [letterI, setLetterI] = useState("");
@@ -161,6 +170,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainI, setColorMainI] = useState("");
   const [verseSoundI, setVerseSoundI] = useState("");
   const [soundIdI, setSoundIdI] = useState("");
+  const [nameVerseILength, setNameVerseILength] = useState("");
 
   // HOOKS FOR J VERSE
   const [letterJ, setLetterJ] = useState("");
@@ -171,6 +181,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainJ, setColorMainJ] = useState("");
   const [verseSoundJ, setVerseSoundJ] = useState("");
   const [soundIdJ, setSoundIdJ] = useState("");
+  const [nameVerseJLength, setNameVerseJLength] = useState("");
 
   // HOOKS FOR K VERSE
   const [letterK, setLetterK] = useState("");
@@ -181,6 +192,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainK, setColorMainK] = useState("");
   const [verseSoundK, setVerseSoundK] = useState("");
   const [soundIdK, setSoundIdK] = useState("");
+  const [nameVerseKLength, setNameVerseKLength] = useState("");
 
   // HOOKS FOR L VERSE
   const [letterL, setLetterL] = useState("");
@@ -191,6 +203,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainL, setColorMainL] = useState("");
   const [verseSoundL, setVerseSoundL] = useState("");
   const [soundIdL, setSoundIdL] = useState("");
+  const [nameVerseLLength, setNameVerseLLength] = useState("");
 
   // HOOKS FOR M VERSE
   const [letterM, setLetterM] = useState("");
@@ -201,6 +214,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainM, setColorMainM] = useState("");
   const [verseSoundM, setVerseSoundM] = useState("");
   const [soundIdM, setSoundIdM] = useState("");
+  const [nameVerseMLength, setNameVerseMLength] = useState("");
 
   // HOOKS FOR N VERSE
   const [letterN, setLetterN] = useState("");
@@ -211,6 +225,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainN, setColorMainN] = useState("");
   const [verseSoundN, setVerseSoundN] = useState("");
   const [soundIdN, setSoundIdN] = useState("");
+  const [nameVerseNLength, setNameVerseNLength] = useState("");
 
   // HOOKS FOR O VERSE
   const [letterO, setLetterO] = useState("");
@@ -221,6 +236,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainO, setColorMainO] = useState("");
   const [verseSoundO, setVerseSoundO] = useState("");
   const [soundIdO, setSoundIdO] = useState("");
+  const [nameVerseOLength, setNameVerseOLength] = useState("");
 
   // HOOKS FOR P VERSE
   const [letterP, setLetterP] = useState("");
@@ -231,6 +247,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainP, setColorMainP] = useState("");
   const [verseSoundP, setVerseSoundP] = useState("");
   const [soundIdP, setSoundIdP] = useState("");
+  const [nameVersePLength, setNameVersePLength] = useState("");
 
   // HOOKS FOR Q VERSE
   const [letterQ, setLetterQ] = useState("");
@@ -241,6 +258,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainQ, setColorMainQ] = useState("");
   const [verseSoundQ, setVerseSoundQ] = useState("");
   const [soundIdQ, setSoundIdQ] = useState("");
+  const [nameVerseQLength, setNameVerseQLength] = useState("");
 
   // HOOKS FOR R VERSE
   const [letterR, setLetterR] = useState("");
@@ -251,6 +269,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainR, setColorMainR] = useState("");
   const [verseSoundR, setVerseSoundR] = useState("");
   const [soundIdR, setSoundIdR] = useState("");
+  const [nameVerseRLength, setNameVerseRLength] = useState("");
 
   // HOOKS FOR S VERSE
   const [letterS, setLetterS] = useState("");
@@ -261,6 +280,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainS, setColorMainS] = useState("");
   const [verseSoundS, setVerseSoundS] = useState("");
   const [soundIdS, setSoundIdS] = useState("");
+  const [nameVerseSLength, setNameVerseSLength] = useState("");
 
   // HOOKS FOR T VERSE
   const [letterT, setLetterT] = useState("");
@@ -271,6 +291,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainT, setColorMainT] = useState("");
   const [verseSoundT, setVerseSoundT] = useState("");
   const [soundIdT, setSoundIdT] = useState("");
+  const [nameVerseTLength, setNameVerseTLength] = useState("");
 
   // HOOKS FOR U VERSE
   const [letterU, setLetterU] = useState("");
@@ -281,6 +302,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainU, setColorMainU] = useState("");
   const [verseSoundU, setVerseSoundU] = useState("");
   const [soundIdU, setSoundIdU] = useState("");
+  const [nameVerseULength, setNameVerseULength] = useState("");
 
   // HOOKS FOR V VERSE
   const [letterV, setLetterV] = useState("");
@@ -291,6 +313,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainV, setColorMainV] = useState("");
   const [verseSoundV, setVerseSoundV] = useState("");
   const [soundIdV, setSoundIdV] = useState("");
+  const [nameVerseVLength, setNameVerseVLength] = useState("");
 
   // HOOKS FOR W VERSE
   const [letterW, setLetterW] = useState("");
@@ -301,6 +324,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainW, setColorMainW] = useState("");
   const [verseSoundW, setVerseSoundW] = useState("");
   const [soundIdW, setSoundIdW] = useState("");
+  const [nameVerseWLength, setNameVerseWLength] = useState("");
 
   // HOOKS FOR X VERSE
   const [letterX, setLetterX] = useState("");
@@ -311,6 +335,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainX, setColorMainX] = useState("");
   const [verseSoundX, setVerseSoundX] = useState("");
   const [soundIdX, setSoundIdX] = useState("");
+  const [nameVerseXLength, setNameVerseXLength] = useState("");
 
   // HOOKS FOR Y VERSE
   const [letterY, setLetterY] = useState("");
@@ -321,6 +346,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainY, setColorMainY] = useState("");
   const [verseSoundY, setVerseSoundY] = useState("");
   const [soundIdY, setSoundIdY] = useState("");
+  const [nameVerseYLength, setNameVerseYLength] = useState("");
 
   // HOOKS FOR Z VERSE
   const [letterZ, setLetterZ] = useState("");
@@ -331,6 +357,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
   const [colorMainZ, setColorMainZ] = useState("");
   const [verseSoundZ, setVerseSoundZ] = useState("");
   const [soundIdZ, setSoundIdZ] = useState("");
+  const [nameVerseZLength, setNameVerseZLength] = useState("");
 
   useEffect(() => {
     soundPlay();
@@ -370,16 +397,28 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     getVerseZ();
   }, []);
 
-  const soundPlay = (src, id) => {
+  const soundPlay = (src, id, e) => {
     const sound = new Howl({
       src: [src],
+      id: id,
+      onplay: function() {
+         // Fires when the sound finishes playing.
+        sound.once('load', function() {
+            sound.play();
+        })
+        sound.once('unlock', function() {
+          sound.play();
+        });
+      }
     });
 
-    sound.play();
+   
+   sound.play()
+    
+  console.log(sound);
 
-    console.log(sound)
+
   };
-
   
   // GET ALL THE VERSE A
   const getVerseA = () => {
@@ -409,8 +448,6 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     }
     randomVerse = dataVerse[randNum];
 
-    console.log(randomVerse)
-
     setLetterA(randomVerse.letter);
     setVerseA(randomVerse.verse);
     setNameVerseA(randomVerse.name);
@@ -419,6 +456,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainA(randomVerse.colorMain);
     setVerseSoundA(randomVerse.verseSound);
     setSoundIdA(randomVerse.id);
+    setNameVerseALength(dataVerse);
   };
 
   // GET ALL THE VERSE B
@@ -447,6 +485,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainB(randomVerse.colorMain);
     setVerseSoundB(randomVerse.verseSound);
     setSoundIdB(randomVerse.id);
+    setNameVerseBLength(dataVerse);
   };
 
   // GET ALL THE VERSE C
@@ -475,6 +514,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainC(randomVerse.colorMain);
     setVerseSoundC(randomVerse.verseSound);
     setSoundIdC(randomVerse.id);
+    setNameVerseCLength(dataVerse);
   };
 
   // GET ALL THE VERSE D
@@ -503,6 +543,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainD(randomVerse.colorMain);
     setVerseSoundD(randomVerse.verseSound);
     setSoundIdD(randomVerse.id);
+    setNameVerseDLength(dataVerse);
   };
 
   // GET ALL THE VERSE E
@@ -531,6 +572,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainE(randomVerse.colorMain);
     setVerseSoundE(randomVerse.verseSound);
     setSoundIdE(randomVerse.id);
+    setNameVerseELength(dataVerse);
   };
 
   // GET ALL THE VERSE F
@@ -559,6 +601,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainF(randomVerse.colorMain);
     setVerseSoundF(randomVerse.verseSound);
     setSoundIdF(randomVerse.id);
+    setNameVerseFLength(dataVerse);
   };
 
   // GET ALL THE VERSE G
@@ -587,6 +630,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainG(randomVerse.colorMain);
     setVerseSoundG(randomVerse.verseSound);
     setSoundIdG(randomVerse.id);
+    setNameVerseGLength(dataVerse);
   };
 
   // GET ALL THE VERSE H
@@ -615,6 +659,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainH(randomVerse.colorMain);
     setVerseSoundH(randomVerse.verseSound);
     setSoundIdH(randomVerse.id);
+    setNameVerseHLength(dataVerse);
   };
 
   // GET ALL THE VERSE I
@@ -643,6 +688,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainI(randomVerse.colorMain);
     setVerseSoundI(randomVerse.verseSound);
     setSoundIdI(randomVerse.id);
+    setNameVerseILength(dataVerse);
   };
 
   // GET ALL THE VERSE J
@@ -671,6 +717,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainJ(randomVerse.colorMain);
     setVerseSoundJ(randomVerse.verseSound);
     setSoundIdJ(randomVerse.id);
+    setNameVerseJLength(dataVerse);
   };
 
   // GET ALL THE VERSE K
@@ -699,6 +746,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainK(randomVerse.colorMain);
     setVerseSoundK(randomVerse.verseSound);
     setSoundIdK(randomVerse.id);
+    setNameVerseKLength(dataVerse);
   };
 
   // GET ALL THE VERSE L
@@ -727,6 +775,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainL(randomVerse.colorMain);
     setVerseSoundL(randomVerse.verseSound);
     setSoundIdL(randomVerse.id);
+    setNameVerseLLength(dataVerse);
   };
 
   // GET ALL THE VERSE M
@@ -755,6 +804,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainM(randomVerse.colorMain);
     setVerseSoundM(randomVerse.verseSound);
     setSoundIdM(randomVerse.id);
+    setNameVerseMLength(dataVerse);
   };
 
   // GET ALL THE VERSE N
@@ -783,6 +833,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainN(randomVerse.colorMain);
     setVerseSoundN(randomVerse.verseSound);
     setSoundIdN(randomVerse.id);
+    setNameVerseNLength(dataVerse);
   };
 
   // GET ALL THE VERSE O
@@ -811,6 +862,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainO(randomVerse.colorMain);
     setVerseSoundO(randomVerse.verseSound);
     setSoundIdO(randomVerse.id);
+    setNameVerseOLength(dataVerse);
   };
 
   // GET ALL THE VERSE P
@@ -839,6 +891,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainP(randomVerse.colorMain);
     setVerseSoundP(randomVerse.verseSound);
     setSoundIdP(randomVerse.id);
+    setNameVersePLength(dataVerse);
   };
 
   // GET ALL THE VERSE Q
@@ -867,6 +920,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainQ(randomVerse.colorMain);
     setVerseSoundQ(randomVerse.verseSound);
     setSoundIdQ(randomVerse.id);
+    setNameVerseQLength(dataVerse);
   };
 
   // GET ALL THE VERSE R
@@ -895,6 +949,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainR(randomVerse.colorMain);
     setVerseSoundR(randomVerse.verseSound);
     setSoundIdR(randomVerse.id);
+    setNameVerseRLength(dataVerse);
   };
 
   // GET ALL THE VERSE S
@@ -923,6 +978,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainS(randomVerse.colorMain);
     setVerseSoundS(randomVerse.verseSound);
     setSoundIdS(randomVerse.id);
+    setNameVerseSLength(dataVerse);
   };
 
   // GET ALL THE VERSE T
@@ -951,6 +1007,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainT(randomVerse.colorMain);
     setVerseSoundT(randomVerse.verseSound);
     setSoundIdT(randomVerse.id);
+    setNameVerseTLength(dataVerse);
   };
 
   // GET ALL THE VERSE U
@@ -979,6 +1036,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainU(randomVerse.colorMain);
     setVerseSoundU(randomVerse.verseSound);
     setSoundIdU(randomVerse.id);
+    setNameVerseULength(dataVerse);
   };
 
   // GET ALL THE VERSE V
@@ -1007,6 +1065,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainV(randomVerse.colorMain);
     setVerseSoundV(randomVerse.verseSound);
     setSoundIdV(randomVerse.id);
+    setNameVerseVLength(dataVerse);
   };
 
   // GET ALL THE VERSE W
@@ -1035,6 +1094,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainW(randomVerse.colorMain);
     setVerseSoundW(randomVerse.verseSound);
     setSoundIdW(randomVerse.id);
+    setNameVerseWLength(dataVerse);
   };
 
   // GET ALL THE VERSE X
@@ -1063,6 +1123,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainX(randomVerse.colorMain);
     setVerseSoundX(randomVerse.verseSound);
     setSoundIdX(randomVerse.id);
+    setNameVerseXLength(dataVerse);
   };
 
   // GET ALL THE VERSE Y
@@ -1091,6 +1152,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainY(randomVerse.colorMain);
     setVerseSoundY(randomVerse.verseSound);
     setSoundIdY(randomVerse.id);
+    setNameVerseYLength(dataVerse);
   };
 
   // GET ALL THE VERSE Z
@@ -1119,6 +1181,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setColorMainZ(randomVerse.colorMain);
     setVerseSoundZ(randomVerse.verseSound);
     setSoundIdZ(randomVerse.id);
+    setNameVerseZLength(dataVerse);
   };
 
   // HANDLE CHANGE A
@@ -1131,7 +1194,13 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },500); 
+
+      Howler.stop()
+
+      types = e.type;
   };
+
+
 
   // HANDLE CHANGE B
   const handleChangeVerseB = () => {
@@ -1142,7 +1211,9 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
 
     setTimeout(() => {
         verseId.classList.remove("change")
-      },1000); 
+      },1000);
+      Howler.stop(); 
+
   };
 
   // HANDLE CHANGE C
@@ -1155,6 +1226,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE D
@@ -1191,6 +1263,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE G
@@ -1203,6 +1276,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE H
@@ -1215,6 +1289,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE I
@@ -1227,6 +1302,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE J
@@ -1239,6 +1315,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE K
@@ -1251,6 +1328,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE L
@@ -1263,6 +1341,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
  
 
@@ -1276,6 +1355,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE N
@@ -1287,7 +1367,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
 
     setTimeout(() => {
         verseId.classList.remove("change")
-      },1000); 
+      },1000);
+      Howler.stop(); 
   };
 
   // HANDLE CHANGE O
@@ -1300,6 +1381,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE P
@@ -1312,6 +1394,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE Q
@@ -1324,6 +1407,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE R
@@ -1336,6 +1420,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE S
@@ -1348,6 +1433,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE T
@@ -1359,7 +1445,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
 
     setTimeout(() => {
         verseId.classList.remove("change")
-      },1000); 
+      },1000);
+      Howler.stop(); 
   };
 
   // HANDLE CHANGE U
@@ -1372,6 +1459,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE V
@@ -1384,6 +1472,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE W
@@ -1396,6 +1485,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE X
@@ -1408,6 +1498,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   // HANDLE CHANGE Y
@@ -1419,7 +1510,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
 
     setTimeout(() => {
         verseId.classList.remove("change")
-      },1000); 
+      },1000);
+      Howler.stop(); 
   };
 
   // HANDLE CHANGE Z
@@ -1432,6 +1524,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     setTimeout(() => {
         verseId.classList.remove("change")
       },1000); 
+      Howler.stop();
   };
 
   const infosVerse = [
@@ -1444,7 +1537,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseA,
       colorMain: colorMainA,
       verseSound: verseSoundA,
-      soundId: soundIdA
+      soundId: soundIdA,
+      verseLen: nameVerseALength
     },
     {
       letter: letterB,
@@ -1455,7 +1549,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseB,
       colorMain: colorMainB,
       verseSound: verseSoundB,
-      soundId: soundIdB
+      soundId: soundIdB,
+      verseLen: nameVerseBLength
     },
     {
       letter: letterC,
@@ -1466,7 +1561,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseC,
       colorMain: colorMainC,
       verseSound: verseSoundC,
-      soundId: soundIdC
+      soundId: soundIdC,
+      verseLen: nameVerseCLength
     },
     {
       letter: letterD,
@@ -1477,7 +1573,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseD,
       colorMain: colorMainD,
       verseSound: verseSoundD,
-      soundId: soundIdD
+      soundId: soundIdD,
+      verseLen: nameVerseDLength
     },
     {
       letter: letterE,
@@ -1488,7 +1585,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseE,
       colorMain: colorMainE,
       verseSound: verseSoundE,
-      soundId: soundIdE
+      soundId: soundIdE,
+      verseLen: nameVerseELength
     },
     {
       letter: letterF,
@@ -1499,7 +1597,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseF,
       colorMain: colorMainF,
       verseSound: verseSoundF,
-      soundId: soundIdF
+      soundId: soundIdF,
+      verseLen: nameVerseFLength
     },
     {
       letter: letterG,
@@ -1510,7 +1609,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseG,
       colorMain: colorMainG,
       verseSound: verseSoundG,
-      soundId: soundIdG
+      soundId: soundIdG,
+      verseLen: nameVerseGLength
     },
     {
       letter: letterH,
@@ -1521,7 +1621,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseH,
       colorMain: colorMainH,
       verseSound: verseSoundH,
-      soundId: soundIdH
+      soundId: soundIdH,
+      verseLen: nameVerseHLength
     },
     {
       letter: letterI,
@@ -1532,7 +1633,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseI,
       colorMain: colorMainI,
       verseSound: verseSoundI,
-      soundId: soundIdI
+      soundId: soundIdI,
+      verseLen: nameVerseILength
     },
     {
       letter: letterJ,
@@ -1543,7 +1645,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseJ,
       colorMain: colorMainJ,
       verseSound: verseSoundJ,
-      soundId: soundIdJ
+      soundId: soundIdJ,
+      verseLen: nameVerseJLength
     },
     {
       letter: letterK,
@@ -1554,7 +1657,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseK,
       colorMain: colorMainK,
       verseSound: verseSoundK,
-      soundId: soundIdK
+      soundId: soundIdK,
+      verseLen: nameVerseKLength
     },
     {
       letter: letterL,
@@ -1565,7 +1669,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseL,
       colorMain: colorMainL,
       verseSound: verseSoundL,
-      soundId: soundIdL
+      soundId: soundIdL,
+      verseLen: nameVerseLLength
     },
     {
       letter: letterM,
@@ -1576,7 +1681,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseM,
       colorMain: colorMainM,
       verseSound: verseSoundM,
-      soundId: soundIdM
+      soundId: soundIdM,
+      verseLen: nameVerseMLength
     },
     {
       letter: letterN,
@@ -1587,7 +1693,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseN,
       colorMain: colorMainN,
       verseSound: verseSoundN,
-      soundId: soundIdN
+      soundId: soundIdN,
+      verseLen: nameVerseNLength
     },
     {
       letter: letterO,
@@ -1598,7 +1705,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseO,
       colorMain: colorMainO,
       verseSound: verseSoundO,
-      soundId: soundIdO
+      soundId: soundIdO,
+      verseLen: nameVerseOLength
     },
     {
       letter: letterP,
@@ -1609,7 +1717,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseP,
       colorMain: colorMainP,
       verseSound: verseSoundP,
-      soundId: soundIdP
+      soundId: soundIdP,
+      verseLen: nameVersePLength
     },
     {
       letter: letterQ,
@@ -1620,7 +1729,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseQ,
       colorMain: colorMainQ,
       verseSound: verseSoundQ,
-      soundId: soundIdQ
+      soundId: soundIdQ,
+      verseLen: nameVerseQLength
     },
     {
       letter: letterR,
@@ -1631,7 +1741,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseR,
       colorMain: colorMainR,
       verseSound: verseSoundR,
-      soundId: soundIdR
+      soundId: soundIdR,
+      verseLen: nameVerseRLength
     },
     {
       letter: letterS,
@@ -1642,7 +1753,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseS,
       colorMain: colorMainS,
       verseSound: verseSoundS,
-      soundId: soundIdS
+      soundId: soundIdS,
+      verseLen: nameVerseSLength
     },
     {
       letter: letterT,
@@ -1653,7 +1765,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseT,
       colorMain: colorMainT,
       verseSound: verseSoundT,
-      soundId: soundIdT
+      soundId: soundIdT,
+      verseLen: nameVerseTLength
     },
     {
       letter: letterU,
@@ -1664,7 +1777,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseU,
       colorMain: colorMainU,
       verseSound: verseSoundU,
-      soundId: soundIdU
+      soundId: soundIdU,
+      verseLen: nameVerseILength
     },
 
     {
@@ -1676,7 +1790,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseV,
       colorMain: colorMainV,
       verseSound: verseSoundV,
-      soundId: soundIdV
+      soundId: soundIdV,
+      verseLen: nameVerseVLength
     },
     {
       letter: letterW,
@@ -1687,7 +1802,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseW,
       colorMain: colorMainW,
       verseSound: verseSoundW,
-      soundId: soundIdW
+      soundId: soundIdW,
+      verseLen: nameVerseWLength
     },
     {
       letter: letterX,
@@ -1698,7 +1814,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseX,
       colorMain: colorMainX,
       verseSound: verseSoundX,
-      soundId: soundIdX
+      soundId: soundIdX,
+      verseLen: nameVerseXLength
     },
     {
       letter: letterY,
@@ -1709,7 +1826,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseY,
       colorMain: colorMainY,
       verseSound: verseSoundY,
-      soundId: soundIdY
+      soundId: soundIdY,
+      verseLen: nameVerseYLength
     },
     {
       letter: letterZ,
@@ -1720,7 +1838,8 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
       func: handleChangeVerseZ,
       colorMain: colorMainZ,
       verseSound: verseSoundZ,
-      soundId: soundIdZ
+      soundId: soundIdZ,
+      verseLen: nameVerseZLength
     }
   ];
 
@@ -1731,6 +1850,7 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
         id={vals.soundId}
         letter={vals.letter}
         chosenVerse={vals.name}
+        verseLength={vals.verseLen}
         verse={vals.verse}
         blockLetterBgColor={vals.colorMain}
         blockLetterTextColor={vals.colorMain}
@@ -1745,7 +1865,6 @@ const AlphaVerse = ({ index, alpha, verseNum }) => {
     );
   });
 
-
   return <div>{outputVerse[index]}</div>;
 }
 
@@ -1753,7 +1872,7 @@ export default class AlphaVerses extends Component {
 
   state = {
     index: 0,
-    lists: dataVerses
+    lists: dataVerses,
   };
   
   componentDidUpdate() {
@@ -1806,9 +1925,10 @@ export default class AlphaVerses extends Component {
     }
   };
   render() {
-    const { index } = this.state;
+    const { index, lists} = this.state;
     Howler.volume(1.0);
     Howler.unload();
+
     return (
       <div>
         {/* <div className="btns-verses">

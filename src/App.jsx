@@ -10,6 +10,7 @@ import SituationsReadMorePage from "./Components/Situations/SituationsReadMorePa
 import sounds from './audio/A/knock-sound.mp3';
 import sounds2 from './audio/A/audio.mp3'
 import Sound from 'react-sound';
+import Audio from "./Components/AlphabetsVerses/Audio";
 
 class App extends Component {
  
@@ -56,6 +57,7 @@ class App extends Component {
         {changeMenuByLocation}
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/audio" component={Audio} />
           <Route exact path="/alphabets-versets" component={AlphaVerses} />
           <Route exact path="/mes-situations" component={SituationsPage} />
           <Route
