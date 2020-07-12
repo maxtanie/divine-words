@@ -73,8 +73,7 @@
   top: 60%;
   left: 50%;
   color: #fff;
-  transform: translate(-50%, -60%);
-  margin-top: 25px; }
+  transform: translate(-50%, -60%); }
 
 .block-verse .content-verses .block-verses .main-verses-big {
   font-size: 4em;
@@ -139,7 +138,7 @@
   .block-verse .content-verses .block-verses .btn-random-verses {
     padding: 15px 20px;
     font-size: 1em;
-    margin-top: 15px; } }
+    margin-top: 35px; } }
 
 .btns {
   position: absolute;
