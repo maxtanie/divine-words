@@ -107,13 +107,13 @@
   width: 3px;
   margin: auto;
   display: block;
-  height: 80px;
+  height: 50px;
   margin-top: 20px;
   background: #fff; }
 
 @media screen and (max-width: 768px) {
   .block-verse .content-verses .block-verses .horizontal-line-center {
-    height: 60px; } }
+    height: 40px; } }
 
 .block-verse .content-verses .block-verses .block-verses {
   font-weight: 800; }
@@ -139,7 +139,7 @@
   .block-verse .content-verses .block-verses .btn-random-verses {
     padding: 15px 20px;
     font-size: 1em;
-    margin-top: 25px; } }
+    margin-top: 15px; } }
 
 .btns {
   position: absolute;
@@ -286,6 +286,10 @@
 
 .arrow-verses-block {
   margin-top: 25px; }
+
+@media screen and (max-width: 768px) {
+  .arrow-verses-block {
+    margin-top: 8px; } }
 
 .arrow-verses-block .arrow {
   cursor: pointer;
