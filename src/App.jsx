@@ -11,6 +11,10 @@ import sounds from './audio/A/knock-sound.mp3';
 import sounds2 from './audio/A/audio.mp3'
 import Sound from 'react-sound';
 import Audio from "./Components/AlphabetsVerses/Audio";
+import logoWhite from './logo-divine-words-white-3.png';
+import logoBlueDark from './logo-divine-words-blue-dark.png';
+
+
 
 class App extends Component {
  
@@ -30,11 +34,13 @@ class App extends Component {
       <NavResponsive
         menuNav={["Accueil", "Alphabets versets", "Mes situations"]}
         menuLinks={["/", "/alphabets-versets", "/mes-situations"]}
+        logo={logoBlueDark}
       />
     ) : (
       <Nav
         menuNav={["Accueil", "Alphabets versets", "Mes situations"]}
         menuLinks={["/", "/alphabets-versets", "/mes-situations"]}
+        logo={logoWhite}
       />
     );
 

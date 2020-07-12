@@ -20,7 +20,9 @@ export default class Nav extends Component {
         <nav className={`nav-default ${loc.includes('/mes-situations') ? `bg-nav-blue` : `nav-default`} ${loc.includes('/mes-situations/') ? `bg-nav-white` : `nav-default`}`}>
           <div className="container">
             <ul className="flex-menu">
-              <h2 className="logo white-col">{logo}</h2>
+            <div className="logo">
+                <a href="/"><img src={logo} alt="logo"/></a>
+            </div>
               <div className="flex-items">
                 {menuNav.map((list, index) => {
                   const linksUrl = menuLinks.map(link => {

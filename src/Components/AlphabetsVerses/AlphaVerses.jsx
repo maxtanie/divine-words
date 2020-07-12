@@ -1844,6 +1844,8 @@ const AlphaVerse = ({ index, alpha, vLen }) => {
   ];
 
   const outputVerse = infosVerse.map((vals, index) => {
+
+    vLen = vals.name.length;
     return (
       <BoxVerse
         key={index}
@@ -1927,7 +1929,22 @@ export default class AlphaVerses extends Component {
   render() {
     const { index, lists} = this.state;
     Howler.volume(1.0);
-    Howler.unload();
+    // Howler.unload();
+
+    const list = lists;
+    
+    const listVerses = Object.keys(list).map(i => list[i]);
+
+    // let versesName = listVerses.map((el,index) => {
+
+    //   const name = el.name;
+
+    //   return el.name
+      
+    // })
+
+    console.log(listVerses[index])
+
 
     return (
       <div>
@@ -1943,7 +1960,7 @@ export default class AlphaVerses extends Component {
             <i className="fas fa-angle-right"></i>
           </button>
         </div>
-        <AlphaVerse index={index} alpha={this.changeAlphaVerse} />
+        <AlphaVerse index={index} alpha={this.changeAlphaVerse} vLen />
       </div>
     );
   }

@@ -228,3 +228,13 @@ html {
 .scrollAnime {
   transition: 5s ease-in-out;
 }
+
+
+.logo {
+  img {
+    width: 100px;
+  }
+  &:hover {
+    opacity: 0.95;
+  }
+}

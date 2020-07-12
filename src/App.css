@@ -52,8 +52,9 @@ html {
   display: block;
   font-size: 13px;
   font-family: "Roboto"; }
-  .anchors:hover {
-    color: #e5eb34; }
+
+.anchors:hover {
+  color: #e5eb34; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -70,8 +71,9 @@ html {
 .orange-col-anchors {
   color: #f60007;
   transition: .3s ease-in-out; }
-  .orange-col-anchors:hover {
-    color: #012875; }
+
+.orange-col-anchors:hover {
+  color: #012875; }
 
 .blue-col {
   color: #1229c1; }
@@ -118,31 +120,34 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   margin: auto;
   grid-gap: 15px; }
-  @media screen and (max-width: 768px) {
-    .flex {
-      max-width: 72%; } }
+
+@media screen and (max-width: 768px) {
+  .flex {
+    max-width: 72%; } }
 
 .grid-creations,
 .filter-item {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important; }
-  @media screen and (max-width: 768px) {
-    .grid-creations,
-    .filter-item {
-      width: 310px;
-      margin: auto;
-      display: block; } }
+
+@media screen and (max-width: 768px) {
+  .grid-creations,
+  .filter-item {
+    width: 310px;
+    margin: auto;
+    display: block; } }
 
 .filter-item {
   width: 30%;
   max-width: 90%;
   margin-right: 1.5%; }
-  @media screen and (max-width: 768px) {
-    .filter-item {
-      width: 100%;
-      max-width: 100%;
-      display: block;
-      margin-right: 0 !important; } }
+
+@media screen and (max-width: 768px) {
+  .filter-item {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-right: 0 !important; } }
 
 @media screen and (max-width: 1068px) {
   .nav-default {
@@ -153,3 +158,9 @@ html {
 
 .scrollAnime {
   transition: 5s ease-in-out; }
+
+.logo img {
+  width: 100px; }
+
+.logo:hover {
+  opacity: 0.95; }

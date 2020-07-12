@@ -43,7 +43,7 @@
     
   }
   .anchors {
-    color: #1927a1 !important;
+    color: #05063F !important;
     font-size: 0.75em !important;   
     &:hover {
       color: #ec3b20 !important;
@@ -52,7 +52,7 @@
 
   .closed {
     cursor: pointer;
-    border: 1px solid #1927a1;
+    border: 1px solid #05063F;
     width: 40px;
     height: 40px;
     line-height: 50px;
@@ -81,7 +81,7 @@
         top: 50%;
         left: 0;
         margin-top: -1px;
-        background: #1927a1;
+        background: #05063F;
       }
       &::before {
         transform: rotate(45deg);

@@ -1,20 +1,17 @@
 .nav-default {
   position: absolute;
   // top: 28px;
-  top: 0;
+  top: 25px;
   left: 0;
   right: 0;
   z-index: 999999999;
-  padding: 20px 0;
+  padding: 0px 0;
 
   .flex-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .logo {
-      font-size: 2.5em;
-    }
     .flex-items {
       width: 90%;
       max-width: 100%;

@@ -40,9 +40,15 @@ export default class BoxVerse extends Component {
       this.setState({ soundActived: true });
       sound.play();
       console.log("finished")
-    }
 
-    console.log(sound.currentTime)
+      sound.on('end', function() {
+        if(sound.duration === sound._endTimers) {
+          console.log("yes")
+        } else {
+          console.log("no")
+        }
+      })
+    }
    }
 
    paused = (id) => {
@@ -187,7 +193,9 @@ export default class BoxVerse extends Component {
       return el.bgResponsiveVerses;
     })
 
-    let versesSecondLen = 0;
+    let  stylesBtnsMarginTop = "";
+
+    let {verSecond} = this.props;
 
     let versesName = listVerses.map((el,index) => {
 
@@ -203,8 +211,13 @@ export default class BoxVerse extends Component {
         name.length
       );
 
-      console.log(versesSecond.length)
+      stylesBtnsMarginTop = {
+        marginTop: "700px"
+      }
 
+      console.log(versesSecond.length, "index", index)
+
+      verSecond = versesSecond
       return (
         <div key={index}>
           <div className="main-verses-big great-wishes">{outputVerse}</div>  
@@ -213,6 +226,33 @@ export default class BoxVerse extends Component {
       )
       
     })
+
+    let versesNames = listVerses.map((el,index) => {
+
+      const nameVerses = el.name.split(" ")
+      const name = el.name;
+
+      let outputVerse = nameVerses[0].length >= 7
+      ? nameVerses[0]
+      : nameVerses[0].concat(" ", nameVerses[1]);
+
+      let versesSecond = name.substr(
+        outputVerse.length,
+        name.length
+      );
+
+      stylesBtnsMarginTop = {
+        marginTop: "700px"
+      }
+
+      console.log(versesSecond.length, "index", index)
+
+      return  versesSecond.length
+      
+    })
+
+    
+    verSecond = versesNames
 
   
   

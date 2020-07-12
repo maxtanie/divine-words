@@ -25,7 +25,9 @@ export default class NavResponsive extends Component {
         </div>
         <nav className={`nav-responsive ${burgerActive ? "show" : "hide"} `}>
           <ul className="">
-            <h2 className="logo ">{logo}</h2>
+          <div className="logo">
+                <a href="/"><img src={logo} alt="logo"/></a>
+              </div>
             <div className="list-items-res">
               {menuNav.map((list, index) => {
                 const linksUrl = menuLinks.map(link => {
