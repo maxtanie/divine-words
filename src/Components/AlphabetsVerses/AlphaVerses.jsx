@@ -1948,11 +1948,7 @@ export default class AlphaVerses extends Component {
 
     return (
       <div>
-        {/* <div className="btns-verses">
-          <button className=" verses left-verses"> <i className="fas fa-angle-left"></i></button>
-          <button className=" verses right-verses"> <i className="fas fa-angle-right"></i></button>
-        </div> */}
-        <div className="btns">
+        <div className="btns" id="btns">
           <button onClick={this.prev} className="btn-arrow left-arrow-alpha">
             <i className="fas fa-angle-left"></i>
           </button>

@@ -211,12 +211,20 @@ export default class BoxVerse extends Component {
         name.length
       );
 
-      stylesBtnsMarginTop = {
-        marginTop: "700px"
-      }
+      const btns = document.getElementById("btns")
 
-      console.log(versesSecond.length, "index", index)
+// if(versesSecond[0].length >= 200) {
+//         btns.classList.remove("margin-top-50")
+//       } else {
+//         btns.classList.add("margin-top-50")
+//       }
 
+if(outputVerse.includes("Au commencement")) {
+  btns.classList.add("margin-top-50")
+} else {
+  btns.classList.add("j")
+}
+ 
       verSecond = versesSecond
       return (
         <div key={index}>
@@ -228,6 +236,7 @@ export default class BoxVerse extends Component {
     })
 
     let versesNames = listVerses.map((el,index) => {
+
 
       const nameVerses = el.name.split(" ")
       const name = el.name;
@@ -241,9 +250,6 @@ export default class BoxVerse extends Component {
         name.length
       );
 
-      stylesBtnsMarginTop = {
-        marginTop: "700px"
-      }
 
       console.log(versesSecond.length, "index", index)
 
