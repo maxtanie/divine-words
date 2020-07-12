@@ -32,14 +32,14 @@ class App extends Component {
 
     const changeMenuByLocation = loc.includes("/alphabets-versets") ? (
       <NavResponsive
-        menuNav={["Accueil", "Alphabets versets", "Mes situations"]}
-        menuLinks={["/", "/alphabets-versets", "/mes-situations"]}
+        menuNav={["Accueil", "Alphabets versets"]}
+        menuLinks={["/", "/alphabets-versets"]}
         logo={logoBlueDark}
       />
     ) : (
       <Nav
-        menuNav={["Accueil", "Alphabets versets", "Mes situations"]}
-        menuLinks={["/", "/alphabets-versets", "/mes-situations"]}
+        menuNav={["Accueil", "Alphabets versets"]}
+        menuLinks={["/", "/alphabets-versets"]}
         logo={logoWhite}
       />
     );
@@ -65,12 +65,12 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/audio" component={Audio} />
           <Route exact path="/alphabets-versets" component={AlphaVerses} />
-          <Route exact path="/mes-situations" component={SituationsPage} />
+          {/* <Route exact path="/mes-situations" component={SituationsPage} />
           <Route
             exact
             path="/mes-situations/:id"
             component={SituationsReadMorePage}
-          />
+          /> */}
         </Switch>
       </div>
     );

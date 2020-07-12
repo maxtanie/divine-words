@@ -3,7 +3,7 @@ import { Howl, Howler } from "howler";
 // import sound from "../../audio/knock-sound.mp3";
 
 import "./AlphaVerses.scss";
-var sound = null
+var sound;
 
 export default class BoxVerse extends Component {
   state = {
@@ -24,13 +24,15 @@ export default class BoxVerse extends Component {
     this.prevVerses();
     this.nextVerses();
 
+
+
   }
 
  playSound = (src,id) => {
     
     if (this.state.soundActived) {
       this.setState({ soundActived: false });
-      return this.paused();
+      return sound.pause();
     } else {
       sound = new Howl({
         src: [src],
@@ -39,20 +41,11 @@ export default class BoxVerse extends Component {
       });
       this.setState({ soundActived: true });
       sound.play();
-      console.log("finished")
-
-      sound.on('end', function() {
-        if(sound.duration === sound._endTimers) {
-          console.log("yes")
-        } else {
-          console.log("no")
-        }
-      })
     }
    }
 
    paused = (id) => {
-    return sound.pause(id);
+    return sound.stop();
   }
  
   alphaActived = () => {
@@ -326,12 +319,16 @@ if(outputVerse.includes("Au commencement")) {
         <div className="content-verses center">
           <div className="block-verses">
             <div className="anime" id="number">
-            <div onClick={() => this.playSound( sounds[index])} 
+            <div onClick={() => this.playSound( sounds[index],id={id})} 
         >
-            <i
+            {/* <i
               style={blkLetterTextColor}
               className={`${!this.state.soundActived ? "fa fa-volume-up sound-verse" : "fa fa-pause sound-verse"}`}
               onClick={this.activedSound}
+            ></i> */}
+            <i
+              style={blkLetterTextColor}
+              className="fa fa-volume-up sound-verse"
             ></i>
             </div>    
             {versesName[index]}

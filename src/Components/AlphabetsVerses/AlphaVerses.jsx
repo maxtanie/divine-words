@@ -1778,7 +1778,7 @@ const AlphaVerse = ({ index, alpha, vLen }) => {
       colorMain: colorMainU,
       verseSound: verseSoundU,
       soundId: soundIdU,
-      verseLen: nameVerseILength
+      verseLen: nameVerseULength
     },
 
     {

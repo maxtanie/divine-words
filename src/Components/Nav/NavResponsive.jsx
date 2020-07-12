@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./NavResponsive.scss";
+import logoBlueDark from '../../logo-divine-words-blue-dark.png';
 
 export default class NavResponsive extends Component {
   state = {
@@ -26,8 +27,8 @@ export default class NavResponsive extends Component {
         <nav className={`nav-responsive ${burgerActive ? "show" : "hide"} `}>
           <ul className="">
           <div className="logo">
-                <a href="/"><img src={logo} alt="logo"/></a>
-              </div>
+                <a href="/"><img src={logoBlueDark} alt="logo"/></a>
+            </div>
             <div className="list-items-res">
               {menuNav.map((list, index) => {
                 const linksUrl = menuLinks.map(link => {

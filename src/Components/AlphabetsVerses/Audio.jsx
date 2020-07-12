@@ -1,45 +1,46 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect, Component } from "react";
 
- class Player extends Component {
+const useAudio = url => {
+  const [audio] = useState(new Audio(url));
+  const [playing, setPlaying] = useState(false);
 
-    state = { play: false };
+  const toggle = () => setPlaying(!playing);
 
-  componentWillMount() {
-    this.setState({ play: true });
-  }
+  useEffect(() => {
+      playing ? audio.play() : audio.currentTime = 0;
+    },
+    [playing]
+  );
 
-  play = () => {
-    alert("f")
-    if (this.state.play) {
-      this.setState({ play: false });
-      this.audio.pause();
-    } else {
-      this.setState({ play: true });
-      this.audio.play();
-    }
-  }
+  useEffect(() => {
+    audio.addEventListener('ended', () => setPlaying(false));
+    return () => {
+      audio.removeEventListener('ended', () => setPlaying(false));
+    };
+  }, []);
 
-  render() {
+  return [playing, toggle];
+};
 
-    return (
-      <div>
-      <audio src={this.props.audio}
-        ref={(audio) => { this.audio = audio }}
-        autoPlay
-      />
-      <div onClick={this.play} className={!this.state.play ? "icon ion-play play" : "icon ion-pause pause"} />
-      </div>
-    )
-  }
-}
+const Player = ({ url }) => {
+  const [playing, toggle] = useAudio(url);
+
+  return (
+    <div>
+      <button onClick={toggle}>{playing ? "Pause" : "Play"}</button>
+    </div>
+  );
+};
+
+
+
 
 export default class Audio extends Component {
   render() {
     return (
       <div>
-        <Player audio={["./knock-sound.mp3","./knock-sound.mp3"]}/>
+        <Player url="https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/A/A-psaumes-60-12.mp3" />
       </div>
     )
   }
 }
-

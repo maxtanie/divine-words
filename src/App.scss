@@ -232,7 +232,11 @@ html {
 
 .logo {
   img {
-    width: 100px;
+    width: 120px;
+
+    @media screen and (max-width: 1068px) {
+      width: 120px;
+    }
   }
   &:hover {
     opacity: 0.95;

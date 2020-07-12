@@ -52,8 +52,8 @@ export default class Nav extends Component {
         {this.state.matchesScreen && <NavMain />}
         {!this.state.matchesScreen && (
           <NavResponsive
-            menuNav={["Accueil", "Alphabets versets", "Mes situations"]}
-            menuLinks={["/", "/alphabets-versets", "/mes-situations"]}
+            menuNav={["Accueil", "Alphabets versets"]}
+            menuLinks={["/", "/alphabets-versets"]}
           />
         )}
       </div>
