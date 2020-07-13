@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/desktop-img/img-jean-1-5.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-jean-1-5.png",
       "colorMain": "#ba1411",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/A/A-jean-1-1-5.mp3",
+      "verseSound": "audio/A/A-jean-1-1-5.mp3",
       "id": 161963
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/desktop-img/img-psaumes-6-3.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-psaumes-6-3.png",
       "colorMain": "#ba1411",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/A/A-psaumes-6-3.mp3",
+      "verseSound": "audio/A/A-psaumes-6-3.mp3",
       "id": 161963
     },
     {
@@ -27,7 +27,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/desktop-img/img-psaumes-5-12.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-psaumes-5-12.png",
       "colorMain": "#ba1411",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/A/A-psaumes-5-12-13.mp3",
+      "verseSound": "audio/A/A-psaumes-5-12-13.mp3",
       "id": 1619512
     },
     {
@@ -38,7 +38,7 @@
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-psaumes-60-12.png",
       "colorMain": "#ba1411",
       "id": 16196012,
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/A/A-psaumes-60-12.mp3"
+      "verseSound": "audio/A/A-psaumes-60-12.mp3"
     },
     {
       "name": "Aucun de ceux qui espèrent en toi ne sera couvert de honte, mais la honte est pour ceux qui sont infidèles sans raison.",
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/desktop-img/img-psaumes-25-3.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-psaumes-25-3.png",
       "colorMain": "#ba1411",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/A/A-psaumes-25-3.mp3",
+      "verseSound": "audio/A/A-psaumes-25-3.mp3",
       "id": 1619253
     }
   ]

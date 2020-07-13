@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/desktop-img/img-proverbes-13-24.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/responsive-img/img-responsive-proverbes-13-24.png",
       "colorMain": "#DC5424",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/I/I-proverbes-13-24.mp3",
+      "verseSound": "audio/I/I-proverbes-13-24.mp3",
       "id": 16181324
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/desktop-img/img-proverbes-26-21.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/responsive-img/img-responsive-proverbes-26-21.png",
       "colorMain": "#DC5424",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/I/I-proverbes-26-21.mp3",
+      "verseSound": "audio/I/I-proverbes-26-21.mp3",
       "id": 16182621
     },
     {
@@ -27,7 +27,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/desktop-img/img-matthieu-8-23.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/responsive-img/img-responsive-matthieu-8-23.png",
       "colorMain": "#DC5424",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/I/I-matthieu-8-23.mp3",
+      "verseSound": "audio/I/I-matthieu-8-23.mp3",
       "id": 13121823
     },
     {
@@ -37,7 +37,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/desktop-img/img-psaumes-130-7-8.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/responsive-img/img-responsive-psaumes-130-7-8.png",
       "colorMain": "#DC5424",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/I/I-psaumes-130-7-8.mp3",
+      "verseSound": "audio/I/I-psaumes-130-7-8.mp3",
       "id": 161978
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/desktop-img/img-matthieu-8-32.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/I/responsive-img/img-responsive-matthieu-8-32.png",
       "colorMain": "#DC5424",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/I/I-matthieu-8-32.mp3",
+      "verseSound": "audio/I/I-matthieu-8-32.mp3",
       "id": 13121832
     }
   ]

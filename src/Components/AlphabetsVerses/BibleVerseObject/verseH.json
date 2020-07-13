@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-1-1-2.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-1-1-2.png",
       "colorMain": "#b65847",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-1-1-2.mp3",
+      "verseSound": "audio/H/H-psaumes-1-1-2.mp3",
       "id": 1619112
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-84-5.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-84-5.png",
       "colorMain": "#b65847",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-84-5.mp3",
+      "verseSound": "audio/H/H-psaumes-84-5.mp3",
       "id": 1619845
     },
     {
@@ -27,7 +27,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-84-6.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-84-6.png",
       "colorMain": "#b65847",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-84-6-8.mp3",
+      "verseSound": "audio/H/H-psaumes-84-6-8.mp3",
       "id": 1619846
     },
     {
@@ -37,7 +37,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-luc-11-28.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-luc-11-28.png",
       "colorMain": "#b65847",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-luc-11-28.mp3",
+      "verseSound": "audio/H/H-luc-11-28.mp3",
       "id": 1231128
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-119-1.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-119-1.png",
       "colorMain": "#b65847",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/H/H-psaumes-119-1.mp3",
+      "verseSound": "audio/H/H-psaumes-119-1.mp3",
       "id": 16191191
     }
   ]

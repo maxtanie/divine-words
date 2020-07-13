@@ -7,7 +7,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-proverbes-22-28.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-proverbes-22-28.png",
       "colorMain": "#FF412F",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/N/N-proverbes-22-28.mp3",
+      "verseSound": "audio/N/N-proverbes-22-28.mp3",
       "id": 16182228
     },
     {
@@ -17,7 +17,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-proverbes-1-13.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-proverbes-1-13.png",
       "colorMain": "#FF412F",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/N/N-proverbes-1-13.mp3",
+      "verseSound": "audio/N/N-proverbes-1-13.mp3",
       "id": 1618113
     },
     {
@@ -27,7 +27,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-proverbes-23-4-5.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-proverbes-23-4-5.png",
       "colorMain": "#FF412F",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/N/N-proverbes-23-4-5.mp3",
+      "verseSound": "audio/N/N-proverbes-23-4-5.mp3",
       "id": 16182345
     },
     {
@@ -37,7 +37,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-proverbes-23-13-14.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-proverbes-23-13-14.png",
       "colorMain": "#FF412F",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/N/N-proverbes-23-13-14.mp3",
+      "verseSound": "audio/N/N-proverbes-23-13-14.mp3",
       "id": 1618231314
     },
     {
@@ -47,7 +47,7 @@
       "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-proverbes-22-24-25.png",
       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-proverbes-22-24-25.png",
       "colorMain": "#FF412F",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/N/N-proverbes-22-24-25.mp3",
+      "verseSound": "audio/N/N-proverbes-22-24-25.mp3",
       "id": 16182228
     }
   ]

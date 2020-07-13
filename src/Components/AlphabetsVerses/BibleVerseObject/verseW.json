@@ -7,7 +7,7 @@
       "bgVerses": "img/alphaVersesImg/W/desktop-img/img-letter-w.png",
       "bgResponsiveVerses": "img/alphaVersesImg/W/responsive-img/img-responsive-letter-w.png",
       "colorMain": "#F35C49",
-      "verseSound": "https://raw.githubusercontent.com/maxtanie/divine-words-img/master/audio/W/W-psaumes-6-3.mp3",
+      "verseSound": "audio/W/W-psaumes-6-3.mp3",
       "id": 1619632
     }
   ]
