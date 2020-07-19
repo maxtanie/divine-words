@@ -49,6 +49,26 @@
       "colorMain": "#FF0088",
       "verseSound": "audio/Q/Q-proverbes-29-16.mp3",
       "id": 16182916
+    },
+    {
+      "name": "Quand il n'y a pas de révélation, le peuple ne connaît aucune retenue, mais s'il respecte la loi, il est heureux.",
+      "verse": "Proverbes 29 : 18",
+      "letter": "Q",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/Q/desktop-img/img-proverbes-29-18.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/Q/responsive-img/img-responsive-proverbes-29-18.png",
+      "colorMain": "#FF0088",
+      "verseSound": "audio/Q/Q-proverbes-29-18.mp3",
+      "id": 1618272
+    },
+    {
+      "name": "Qui trouvera une femme de valeur ? Elle vaut bien plus que des perles. Le coeur de son mari a confiance en elle, et c'est tout bénéfice pour lui. Elle lui fait du bien, et non du mal, tous les jours de sa vie.",
+      "verse": "Proverbes 31 : 10-12",
+      "letter": "Q",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/Q/desktop-img/img-proverbes-31-10-12.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/Q/responsive-img/img-responsive-proverbes-31-10-12.png",
+      "colorMain": "#FF0088",
+      "verseSound": "audio/Q/Q-proverbes-31-10-12.mp3",
+      "id": 16182916
     }
   ]
 }

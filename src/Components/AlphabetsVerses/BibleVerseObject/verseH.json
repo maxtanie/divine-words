@@ -49,6 +49,26 @@
       "colorMain": "#b65847",
       "verseSound": "audio/H/H-psaumes-119-1.mp3",
       "id": 16191191
+    },
+    {
+      "name": "Heureux ceux qui gardent ses préceptes, Qui le cherchent de tout leur coeur,  Qui ne commettent point d'iniquité, Et qui marchent dans ses voies !",
+      "verse": "Psaumes 119 : 2",
+      "letter": "H",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-119-2.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-119-2.png",
+      "colorMain": "#b65847",
+      "verseSound": "audio/H/H-psaumes-119-2.mp3",
+      "id": 16191192
+    },
+    {
+      "name": "Heureux celui qui a pour secours le Dieu de Jacob, qui met son espoir en l'Eternel, son Dieu !  *Il a fait le ciel et la terre, la mer et tout ce qui s'y trouve; il protège éternellement la vérité.",
+      "verse": "Psaumes 146 : 5-6",
+      "letter": "H",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/desktop-img/img-psaumes-146-5-6.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/H/responsive-img/img-responsive-psaumes-146-5-6.png",
+      "colorMain": "#b65847",
+      "verseSound": "audio/H/H-psaumes-146-5-6.mp3",
+      "id": 161914656
     }
   ]
 }

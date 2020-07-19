@@ -49,6 +49,26 @@
       "colorMain": "#f88400",
       "verseSound": "audio/D/D-proverbes-26-23.mp3",
       "id": 16182623
+    },
+    {
+      "name": "Dans ma détresse, c'est à l'Eternel que j'ai crié, et il m'a répondu.",
+      "verse": "Psaumes 120 : 1",
+      "letter": "D",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/D/desktop-img/img-proverbes-120-1.png",
+       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/D/responsive-img/img-responsive-proverbes-120-1.png",
+      "colorMain": "#f88400",
+      "verseSound": "audio/D/D-psaumes-120-1.mp3",
+      "id": 16181201
+    },
+    {
+      "name": "Dès le matin, fais-moi entendre ta bonté, car je me confie en toi ! Fais-moi connaître le chemin où je dois marcher, car je me tourne vers toi ! Délivre-moi de mes ennemis, Eternel ! C'est en toi que je cherche un refuge.",
+      "verse": "Psaumes 143 : 8-9",
+      "letter": "D",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/D/desktop-img/img-psaumes-143-8-9.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/D/responsive-img/img-responsive-psaumes-143-8-9.png",
+      "colorMain": "#f88400",
+      "verseSound": "audio/D/D-psaumes-143-8-9.mp3",
+      "id": 161914389
     }
   ]
 }

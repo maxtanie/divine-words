@@ -49,6 +49,26 @@
       "colorMain": "#bf382b",
       "verseSound": "audio/M/M-proverbes-27-22.mp3",
       "id": 16182722
+    },
+    {
+      "name": "Mieux vaut la fin d'une chose que son commencement; mieux vaut un esprit patient qu'un esprit hautain.",
+      "verse": "Ecclésiaste 7 : 8",
+      "letter": "M",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-ecclesiaste-7-8.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-ecclesiaste-7-8.png",
+      "colorMain": "#bf382b",
+      "verseSound": "audio/M/M-ecclesiaste-7-8.mp3",
+      "id": 161875
+    },
+    {
+      "name": "Mais dans leur détresse ils sont retournés à l'Eternel, le Dieu d'Israël. Ils l'ont cherché et ils l'ont trouvé. Dans ces moments-là, il n'y avait aucune sécurité pour ceux qui allaient et venaient, car de grands troubles accablaient tous les habitants du pays.",
+      "verse": "2 Chroniques 15 : 4-5",
+      "letter": "M",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/desktop-img/img-2-chroniques-15-4-5.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/M/responsive-img/img-responsive-2-chroniques-15-4-5.png",
+      "colorMain": "#bf382b",
+      "verseSound": "audio/M/M-2chroniques-15-4-5.mp3",
+      "id": 16182722
     }
   ]
 }

@@ -49,6 +49,28 @@
       "colorMain": "#ba1411",
       "verseSound": "audio/A/A-psaumes-25-3.mp3",
       "id": 1619253
+    },
+    
+    {
+      "name": "Avec celui qui est fidèle tu te montres fidèle, avec l'homme intègre tu agis avec intégrité.",
+      "verse": "Psaumes 18 : 26",
+      "letter": "A",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/desktop-img/img-psaumes-18-26.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-psaumes-18-26.png",
+      "colorMain": "#ba1411",
+      "verseSound": "audio/A/A-psaumes-18-26.mp3",
+      "id": 16191826
+    },
+     {
+      "name": "Avec celui qui est pur tu te montres pur, et avec l'homme faux tu te montres habile.",
+      "verse": "Psaumes 18 : 27",
+      "letter": "A",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/desktop-img/img-psaumes-18-27.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/A/responsive-img/img-responsive-psaumes-18-27.png",
+      "colorMain": "#ba1411",
+      "verseSound": "audio/A/A-psaumes-18-27.mp3",
+      "id": 16191827
     }
+
   ]
 }

@@ -49,6 +49,26 @@
       "colorMain": "#6011BA",
       "verseSound": "audio/P/P-proverbes-22-19.mp3",
       "id": 16182219
+    },
+    {
+      "name": "Pour qui les «ah» ? Pour qui les «hélas» ? Pour qui les disputes ? Pour qui les plaintes ? Pour qui les blessures sans raison ? Pour qui les yeux rouges ? Pour ceux qui s'attardent auprès du vin, pour ceux qui vont déguster du vin mélangé.",
+      "verse": "Proverbes 23 : 29-30",
+      "letter": "P",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/P/desktop-img/img-proverbes-23-29-30.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/P/responsive-img/img-responsive-proverbes-23-29-30.png",
+      "colorMain": "#6011BA",
+      "verseSound": "audio/P/P-proverbes-23-29-30.mp3",
+      "id": 1619426
+    },
+    {
+      "name": "Puis Dieu dit : Faisons l'homme à notre image, selon notre ressemblance, et qu'il domine sur les poissons de la mer, sur les oiseaux du ciel, sur le bétail, sur toute la terre, et sur tous les reptiles qui rampent sur la terre .",
+      "verse": "Genèse 1 : 26",
+      "letter": "P",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/P/desktop-img/img-genese-1-26.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/P/responsive-img/img-responsive-genese-1-26.png",
+      "colorMain": "#6011BA",
+      "verseSound": "audio/P/P-genese-1-26.mp3",
+      "id": 16182219
     }
   ]
 }

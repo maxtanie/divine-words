@@ -50,6 +50,26 @@
       "colorMain": "#f8bd00",
       "verseSound": "audio/B/B-psaumes-34-20-22.mp3",
       "id": 16193419
+    },
+    {
+      "name": "Beaucoup recherchent la faveur de celui qui domine, mais c'est l'Eternel qui rend justice à chacun.", 
+      "verse": "Proverbes 29 : 26",
+      "letter": "B",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-proverbes-29-26.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-proverbes-29-26.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "audio/B/B-proverbes-29-26.mp3",
+      "id": 16192926
+    },
+    {
+      "name": "Béni soit l'Eternel, mon rocher, qui exerce mes mains pour le combat, mes doigts pour la bataille. Il est mon bienfaiteur et ma forteresse, mon refuge et mon libérateur. Il est mon bouclier: c'est en lui que je me réfugie. Il me soumet mon peuple.", 
+      "verse": "Psaumes 144 : 1-2",
+      "letter": "B",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/desktop-img/img-psaumes-144-1-2.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/B/responsive-img/img-responsive-psaumes-144-1-2.png",
+      "colorMain": "#f8bd00",
+      "verseSound": "audio/B/B-psaumes-144-1-2.mp3",
+      "id": 161914412
     }
   ]
 }

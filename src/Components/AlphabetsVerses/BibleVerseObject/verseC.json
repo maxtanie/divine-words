@@ -49,6 +49,26 @@
       "colorMain": "#1229C1",
       "verseSound": "audio/C/C-proverbes-24-8.mp3",
       "id": 1618248
+    },
+    {
+      "name": "Celui dont le coeur s'égare se rassasie de ses voies, et l'homme de bien se rassasie de ce qui est en lui.",
+      "verse": "Proverbes 14 : 14",
+      "letter": "C",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/C/desktop-img/img-proverbes-14-14.png",
+       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/C/responsive-img/img-responsive-proverbes-14-14.png",
+      "colorMain": "#1229C1",
+      "verseSound": "audio/C/C-proverbes-14-14.mp3",
+      "id": 16181414
+    },
+    {
+      "name": "Celui qui manque d'expérience croit tout ce qu'on dit, mais l'homme avisé est attentif à ses pas." ,
+      "verse": "Proverbes 14 : 15",
+      "letter": "C",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/C/desktop-img/img-proverbes-14-15.png",
+       "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/C/responsive-img/img-responsive-proverbes-14-15.png",
+      "colorMain": "#1229C1",
+      "verseSound": "audio/C/C-proverbes-14-15.mp3",
+      "id": 16181415
     }
   ]
 }

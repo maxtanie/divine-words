@@ -49,6 +49,26 @@
       "colorMain": "#8E02D7",
       "verseSound": "audio/E/E-proverbes-1-32-33.mp3",
       "id": 161813233
+    },
+    {
+      "name": "En effet, la jalousie rend un homme furieux, et il est sans pitié, le jour de la vengeance; il n'accepte aucune rançon et il ne cède pas, même si tu multiplies les cadeaux.",
+      "verse": "Proverbes 6 : 34-35",
+      "letter": "E",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-proverbes-6-34-35.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-proverbes-6-34-35.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "audio/E/E-proverbes-6-34-35.mp3",
+      "id": 161863435
+    },
+    {
+      "name": "Et moi, j'espérerai toujours, Je te louerai de plus en plus. Ma bouche publiera ta justice, ton salut, chaque jour, Car j'ignore quelles en sont les bornes",
+      "verse": "Psaumes 71 : 14-15",
+      "letter": "E",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/desktop-img/img-psaumes-71-14-15.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/E/responsive-img/img-responsive-psaumes-71-14-15.png",
+      "colorMain": "#8E02D7",
+      "verseSound": "audio/E/E-psaumes-71-14-15.mp3",
+      "id": 1619711415
     }
   ]
 }

@@ -49,6 +49,26 @@
       "colorMain": "#FF412F",
       "verseSound": "audio/N/N-proverbes-22-24-25.mp3",
       "id": 16182228
+    },
+    {
+      "name": "Ne vous inquiétez de rien, mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, dans une attitude de reconnaissance. Et la paix de Dieu, qui dépasse tout ce que l'on peut comprendre, gardera votre coeur et vos pensées en Jésus-Christ.",
+      "verse": "Philippiens 4 : 6-7",
+      "letter": "N",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-philippiens-4-6-7.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-philippiens-4-6-7.png",
+      "colorMain": "#FF412F",
+      "verseSound": "audio/N/N-philippiens-4-6-7.mp3",
+      "id": 1618231314
+    },
+    {
+      "name": "Ne regarde pas le vin qui paraît d'un beau rouge, Qui fait des perles dans la coupe, Et qui coule aisément. Il finit par mordre comme un serpent, Et par piquer comme un basilic.",
+      "verse": "Proverbes 23 : 31-32",
+      "letter": "N",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/desktop-img/img-proverbes-23-31-32.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/N/responsive-img/img-responsive-proverbes-23-31-32.png",
+      "colorMain": "#FF412F",
+      "verseSound": "audio/N/N-proverbes-23-31-32.mp3",
+      "id": 16182228
     }
   ]
 }

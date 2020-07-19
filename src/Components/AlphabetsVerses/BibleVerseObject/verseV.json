@@ -49,6 +49,26 @@
       "colorMain": "#0988A2",
       "verseSound": "audio/V/V-esaie-28-18-19.mp3",
       "id": 51951819
+    },
+    {
+      "name": "Venez, retournons à l'Eternel ! En effet, il a déchiré, mais il nous guérira, il a frappé, mais il bandera nos plaies. Il nous rendra la vie dans deux jours, le troisième jour il nous relèvera et nous vivrons devant lui.",
+      "verse": "Osée 6 : 1-2",
+      "letter": "V",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/V/desktop-img/img-osee-6-1-2.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/V/responsive-img/img-responsive-osee-6-1-2.png",
+      "colorMain": "#0988A2",
+      "verseSound": "audio/V/V-osee-6-1-2.mp3",
+      "id": 51952620
+    },
+    {
+      "name": "Voici quelle est la conduite de la femme adultère: elle mange et s'essuie la bouche avant de dire: «Je n'ai fait aucun mal.»",
+      "verse": "Proverbes 30 : 20",
+      "letter": "V",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/V/desktop-img/img-proverbes-30-20.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/V/responsive-img/img-responsive-proverbes-30-20.png",
+      "colorMain": "#0988A2",
+      "verseSound": "audio/V/V-proverbes-30-20.mp3",
+      "id": 51951819
     }
   ]
 }

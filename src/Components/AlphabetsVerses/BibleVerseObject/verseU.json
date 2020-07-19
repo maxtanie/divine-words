@@ -49,6 +49,26 @@
       "colorMain": "#991927",
       "verseSound": "audio/U/U-proverbes-25-26.mp3",
       "id": 16182526
+    },
+    {
+      "name": "Un roi sage disperse les méchants et fait passer les roues sur eux.",
+      "verse": "Proverbes 20 : 26",
+      "letter": "U",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/U/desktop-img/img-proverbes-20-26.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/U/responsive-img/img-responsive-proverbes-20-26.png",
+      "colorMain": "#991927",
+      "verseSound": "audio/U/U-proverbes-20-26.mp3",
+      "id": 16181928
+    },
+    {
+      "name": "Une ville démantelée, sans murailles, voilà ce qu'est l'homme qui n'est pas maître de lui-même.",
+      "verse": "Proverbes 25 : 28",
+      "letter": "U",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/U/desktop-img/img-proverbes-25-28.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/U/responsive-img/img-responsive-proverbes-25-28.png",
+      "colorMain": "#991927",
+      "verseSound": "audio/U/U-proverbes-25-28.mp3",
+      "id": 16182526
     }
   ]
 }

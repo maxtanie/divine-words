@@ -49,6 +49,26 @@
       "colorMain": "#0D0D5D",
       "verseSound": "audio/R/R-actes-3-19.mp3",
       "id": 1319319
+    },
+    {
+      "name": "Regarde ma misère et délivre-moi, car je n'oublie pas ta loi. Défends ma cause et rachète-moi, rends-moi la vie par ta promesse !",
+      "verse": "Psaumes 119 : 153-154",
+      "letter": "R",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/R/desktop-img/img-psaumes-119-153-154.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/R/responsive-img/img-responsive-psaumes-119-153-154.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "audio/R/R-psaumes-119-153-154.mp3",
+      "id": 1681944
+    },
+    {
+      "name": "Réponds-moi vite, Eternel, car mon esprit s'épuise. Ne me cache pas ton visage, car je deviendrais pareil à ceux qui descendent dans la tombe.",
+      "verse": "Psaumes 143 : 7",
+      "letter": "R",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/R/desktop-img/img-psaumes-143-7.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/R/responsive-img/img-responsive-psaumes-143-7.png",
+      "colorMain": "#0D0D5D",
+      "verseSound": "audio/R/R-psaumes-143-7.mp3",
+      "id": 1319319
     }
   ]
 }

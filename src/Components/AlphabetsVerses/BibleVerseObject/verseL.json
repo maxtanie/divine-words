@@ -49,6 +49,26 @@
       "colorMain": "#D87032",
       "verseSound": "audio/L/L-jacques-1-27.mp3",
       "id": 101127
+    },
+    {
+      "name": "Le fou dit en son coeur : Il n'y a point de Dieu ! Ils se sont corrompus, ils ont commis des iniquités abominables; Il n'en est aucun qui fasse le bien.",
+      "verse": "Psaumes 53 : 2",
+      "letter": "L",
+     "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/L/desktop-img/img-psaumes-53-2.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/L/responsive-img/img-responsive-psaumes-53-2.png",
+      "colorMain": "#D87032",
+      "verseSound": "audio/L/L-psaumes-53-2.mp3",
+      "id": 1619532
+    },
+    {
+      "name": "Lève-toi, Eternel, sauve-moi, mon Dieu ! Tu gifles tous mes ennemis, tu brises les dents des méchants.",
+      "verse": "Psaumes 3 : 8",
+      "letter": "L",
+     "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/L/desktop-img/img-psaumes-3-8.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/L/responsive-img/img-responsive-psaumes-3-8.png",
+      "colorMain": "#D87032",
+      "verseSound": "audio/L/L-psaumes-3-8.mp3",
+      "id": 161938
     }
   ]
 }

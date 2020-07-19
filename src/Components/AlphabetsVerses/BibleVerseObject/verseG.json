@@ -49,6 +49,26 @@
       "colorMain": "#12AAC9",
       "verseSound": "audio/G/G-psaumes-37-7.mp3",
       "id": 1619377
+    },
+    {
+      "name": "Grâce à tes décrets je deviens intelligent, c'est pourquoi je déteste toute voie de mensonge.",
+      "verse": "Psaumes 119 : 104",
+      "letter": "G",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/G/desktop-img/img-psaumes-119-104.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/G/responsive-img/img-responsive-psaumes-119-104.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "audio/G/G-psaumes-119-104.mp3",
+      "id": 1619119104
+    },
+    {
+      "name": "Garantis le bien de ton serviteur! Ne me laisse pas opprimer par des hommes arrogants !",
+      "verse": "Psaumes 119 : 122",
+      "letter": "G",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/G/desktop-img/img-psaumes-119-122.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/G/responsive-img/img-responsive-psaumes-119-122.png",
+      "colorMain": "#12AAC9",
+      "verseSound": "audio/G/G-psaumes-119-122.mp3",
+      "id": 1619119122
     }
   ]
 }

@@ -41,13 +41,23 @@
       "id": 16181194
     },
     {
-      "name": "Ta parole est une lampe à mes pieds et une lumière sur mon sentier. Je jure, et je tiendrai ma promesse, de respecter tes justes sentences.",
-      "verse": "Psaumes 119 : 105-106",
+      "name": "Tes commandements me rendent plus sage que mes ennemis, car je les ai toujours avec moi.",
+      "verse": "Psaumes 119 : 98",
       "letter": "T",
-      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/T/desktop-img/img-psaumes-119-105-106.png",
-      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/T/responsive-img/img-responsive-psaumes-119-105-106.png",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/T/desktop-img/img-psaumes-119-98.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/T/responsive-img/img-responsive-psaumes-119-98.png",
       "colorMain": "#F76C00",
-      "verseSound": "audio/T/T-psaumes-119-105-106.mp3",
+      "verseSound": "audio/T/T-psaumes-119-98.mp3",
+      "id": 1618212
+    },
+    {
+      "name": "Tes instructions sont admirables, c'est pourquoi je les garde.",
+      "verse": "Proverbes 119 : 129",
+      "letter": "T",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/T/desktop-img/img-psaumes-119-129.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/T/responsive-img/img-responsive-psaumes-119-129.png",
+      "colorMain": "#F76C00",
+      "verseSound": "audio/T/T-psaumes-119-129.mp3",
       "id": 1618212
     }
   ]

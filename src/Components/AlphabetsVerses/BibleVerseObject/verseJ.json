@@ -49,6 +49,26 @@
       "colorMain": "#EAA000",
       "verseSound": "audio/J/J-proverbes-30-7-9.mp3",
       "id": 16183079
+    },
+    {
+      "name": "J'ai été jeune, j'ai vieilli; Et je n'ai point vu le juste abandonné, Ni sa postérité mendiant son pain. Toujours il est compatissant, et il prête; Et sa postérité est bénie.",
+      "verse": "Psaumes 37 : 25-26",
+      "letter": "J",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/J/desktop-img/img-psaumes-37-25-26.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/J/responsive-img/img-responsive-psaumes-37-25-26.png",
+      "colorMain": "#EAA000",
+      "verseSound": "audio/J/J-psaumes-37-25-26.mp3",
+      "id": 1619372526
+    },
+    {
+      "name": "Jusqu'à présent, vous n'avez rien demandé en mon nom. Demandez et vous recevrez, afin que votre joie soit complète.",
+      "verse": "Jean 16 : 24",
+      "letter": "J",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/J/desktop-img/img-jean-16-24.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/J/responsive-img/img-responsive-jean-16-24.png",
+      "colorMain": "#EAA000",
+      "verseSound": "audio/J/J-jean-16-24.mp3",
+      "id": 16183079
     }
   ]
 }

@@ -49,6 +49,26 @@
       "colorMain": "#20D12D",
       "verseSound": "audio/F/F-philippiens-3-13-14.mp3",
       "id": 168191314
+    },
+    {
+      "name": "Fils de Dieu, rendez à l'Eternel, rendez à l'Eternel gloire et honneur ! Rendez à l'Eternel la gloire due à son nom, prosternez-vous devant l'Eternel avec des ornements sacrés !",
+      "verse": "Psaumes 29 : 1-2",
+      "letter": "F",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-psaumes-29-1-2.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-psaumes-29-1-2.png",
+      "colorMain": "#20D12D",
+      "verseSound": "audio/F/F-psaumes-29-1-2.mp3",
+      "id": 16192912
+    },
+    {
+      "name": "Fais-moi grâce, ô Dieu, fais-moi grâce, car c'est en toi que mon âme cherche un refuge; je cherche un refuge à l'ombre de tes ailes jusqu'à ce que le malheur soit passé. ",
+      "verse": "Psaumes 57 : 2",
+      "letter": "F",
+      "bgVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/desktop-img/img-psaumes-57-2.png",
+      "bgResponsiveVerses": "https://media.githubusercontent.com/media/maxtanie/divine-words-img/master/img/F/responsive-img/img-responsive-psaumes-57-2.png",
+      "colorMain": "#20D12D",
+      "verseSound": "audio/F/F-psaumes-57-2.mp3",
+      "id": 1619572
     }
   ]
 }
